@@ -54,7 +54,7 @@
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-01-03 21:56:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>dab8f78d1bfb2740938c4223cd4bcb54</sys_id>
+        <sys_id>e1defe191b78f700aa940f22dd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PPS Department</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_dictionary_x_uocs6_staff_hr_s_shr_user_data_u_pps_department</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-02-22 01:12:34</sys_updated_on>
+        <sys_updated_on>2019-04-13 08:41:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -23,5 +23,8 @@
         <index name="index">
             <element name="fund_request"/>
         </index>
+        <index name="index2">
+            <element name="action_link_record"/>
+        </index>
     </element>
 </database>

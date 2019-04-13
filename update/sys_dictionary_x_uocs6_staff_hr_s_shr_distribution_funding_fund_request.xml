@@ -54,16 +54,16 @@
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-03-18 19:52:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d8eed30d1bd03b80938c4223cd4bcbb0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>95debe191b78f700aa940f22dd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SHR  #</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_dictionary_x_uocs6_staff_hr_s_shr_distribution_funding_fund_request</sys_update_name>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-18 23:38:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-04-13 08:40:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
