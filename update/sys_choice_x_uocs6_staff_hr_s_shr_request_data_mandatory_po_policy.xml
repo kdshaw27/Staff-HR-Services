@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mandatory_po_policy" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mandatory_po_policy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>110</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 22:35:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d07135601b18b780938c4223cd4bcb20</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:06:17</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mandatory_po_policy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>120</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 22:35:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6971f5a01b18b780938c4223cd4bcbe7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:06:26</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mandatory_po_policy</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 22:35:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d97139a01b18b780938c4223cd4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mandatory_po_policy</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_mandatory_po_policy</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 22:35:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

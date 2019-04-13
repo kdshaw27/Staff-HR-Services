@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a11a4ca61bffab40aa940f22dd4bcbef" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 23:40:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ad1a4ca61bffab40aa940f22dd4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="SHR EAR: CLASSIFICATION REVIEW" display_value="SHR EAR: CLASSIFICATION REVIEW" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">8211c0ae1bbfab40aa940f22dd4bcbfe</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 23:40:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 00:51:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d84a90a21b33eb40aa940f22dd4bcbf6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">104a90a21b33eb40aa940f22dd4bcbf4</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:51:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:01:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>699c9ce21b33eb40aa940f22dd4bcb3c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a99c9ce21b33eb40aa940f22dd4bcb39</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 02:25:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 22:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f2d296831b7b2f40aa940f22dd4bcbfc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="- - -   SHR REVIEW   - - -" display_value="- - -   SHR REVIEW   - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">b6d296831b7b2f40aa940f22dd4bcbf7</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-04 21:35:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6866acaa1b33eb40aa940f22dd4bcbcc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="CRITICAL POSITION" display_value="CRITICAL POSITION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">e866acaa1b33eb40aa940f22dd4bcbc8</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-04 21:35:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-17 00:40:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f82e0ea41b58b780938c4223cd4bcb84</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="FUNDING" display_value="FUNDING" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">f82e86a41b58b780938c4223cd4bcbc5</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-17 00:41:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 22:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b6d2d6831b7b2f40aa940f22dd4bcb26</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">b2d296831b7b2f40aa940f22dd4bcbf8</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-17 00:41:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 22:55:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bad2d6831b7b2f40aa940f22dd4bcb2b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="- - -  FINAL DISPOSITION - - -" display_value="- - -  FINAL DISPOSITION - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">bad296831b7b2f40aa940f22dd4bcbf8</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-17 00:41:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:40:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>777524aa1b33eb40aa940f22dd4bcba4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_uocs6_staff_hr_s_shr_request_data" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">a11a4ca61bffab40aa940f22dd4bcbef</sys_ui_form>
+            <sys_ui_section caption="DOCUMENTATION" display_value="DOCUMENTATION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">3f7524aa1b33eb40aa940f22dd4bcba0</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-17 00:41:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 23:40:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a11a4ca61bffab40aa940f22dd4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_uocs6_staff_hr_s_shr_request_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a11a4ca61bffab40aa940f22dd4bcbef</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 23:40:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

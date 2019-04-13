@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="funding_sub" table="x_uocs6_staff_hr_s_shr_distribution_funding" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding_sub</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub 1</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_distribution_funding</name>
+            <sequence>10</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 01:38:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c0ae6d3a1b7feb40aa940f22dd4bcb87</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-27 01:38:26</sys_updated_on>
+            <value>sub1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding_sub</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub 2</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_distribution_funding</name>
+            <sequence>20</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 01:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b1ae65ba1b7feb40aa940f22dd4bcbb3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-27 01:38:34</sys_updated_on>
+            <value>sub2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>funding_sub</element>
+            <name>x_uocs6_staff_hr_s_shr_distribution_funding</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-27 01:38:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f9ae21ba1b7feb40aa940f22dd4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>funding_sub</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_distribution_funding_funding_sub</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-27 01:38:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

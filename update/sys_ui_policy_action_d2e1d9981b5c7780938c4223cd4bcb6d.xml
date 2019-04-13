@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>union_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-16 01:39:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2e1d9981b5c7780938c4223cd4bcb6d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>union_date</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d2e1d9981b5c7780938c4223cd4bcb6d</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-17 00:27:39</sys_updated_on>
+        <table>x_uocs6_staff_hr_s_shr_request_data</table>
+        <ui_policy display_value="Hide Union fields for UNION RESPONSE on NO/None">b4b159981b5c7780938c4223cd4bcb0a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

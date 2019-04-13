@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="EMPLOYEE/ UNIT" section_id="9ff248721ba0bfc0aa940f22dd4bcbc9" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3" view="equity">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>191bfb811b387700938c4223cd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text>EMPLOYEE INFORMATION</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>1d1bfb811b387700938c4223cd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>111bfb811b387700938c4223cd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>151bfb811b387700938c4223cd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>191bfb811b387700938c4223cd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>1d1bfb811b387700938c4223cd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>111bfb811b387700938c4223cd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>151bfb811b387700938c4223cd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>191bfb811b387700938c4223cd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text>REQUESTING UNIT INFORMATION (who will approve request &lt;u&gt;before&lt;/u&gt; sending to SHR for processing)</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>1d1bfb811b387700938c4223cd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>111bfb811b387700938c4223cd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>151bfb811b387700938c4223cd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>191bfb811b387700938c4223cd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>1d1bfb811b387700938c4223cd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>191bfb811b387700938c4223cd4bcb97</element>
+            <position>0</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>dd1bfb811b387700938c4223cd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>511bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee</element>
+            <position>2</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d11bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>551bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_eid</element>
+            <position>4</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d51bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>591bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1d1bfb811b387700938c4223cd4bcb97</element>
+            <position>6</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d91bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>111bfb811b387700938c4223cd4bcb98</element>
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>5d1bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>dd1bfb811b387700938c4223cd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_status</element>
+            <position>9</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>511bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_term_of_action</element>
+            <position>10</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d11bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>551bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_start_date</element>
+            <position>12</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d51bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>591bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>151bfb811b387700938c4223cd4bcb98</element>
+            <position>14</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d91bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>191bfb811b387700938c4223cd4bcb98</element>
+            <position>15</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>5d1bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1d1bfb811b387700938c4223cd4bcb98</element>
+            <position>16</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>dd1bfb811b387700938c4223cd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>111bfb811b387700938c4223cd4bcb99</element>
+            <position>17</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>511bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>151bfb811b387700938c4223cd4bcb99</element>
+            <position>18</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d11bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>191bfb811b387700938c4223cd4bcb99</element>
+            <position>19</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>551bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1d1bfb811b387700938c4223cd4bcb99</element>
+            <position>20</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d51bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>591bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supervisor</element>
+            <position>22</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d91bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supervisor_approval</element>
+            <position>23</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>5d1bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>111bfb811b387700938c4223cd4bcb9a</element>
+            <position>24</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>dd1bfb811b387700938c4223cd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>151bfb811b387700938c4223cd4bcb9a</element>
+            <position>25</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>511bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_approver</element>
+            <position>26</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d11bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_approval</element>
+            <position>27</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>551bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>28</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d51bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_head</element>
+            <position>29</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>591bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_head_approval</element>
+            <position>30</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d91bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>191bfb811b387700938c4223cd4bcb9a</element>
+            <position>31</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>5d1bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1d1bfb811b387700938c4223cd4bcb9a</element>
+            <position>32</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>dd1bfb811b387700938c4223cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>principal_officer</element>
+            <position>33</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>511bfb811b387700938c4223cd4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_approval</element>
+            <position>34</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:19</sys_created_on>
+            <sys_id>d11bfb811b387700938c4223cd4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE/ UNIT" display_value="EMPLOYEE/ UNIT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">9ff248721ba0bfc0aa940f22dd4bcbc9</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>EMPLOYEE/ UNIT</caption>
+            <header>false</header>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-05 00:35:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ff248721ba0bfc0aa940f22dd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>EMPLOYEE/ UNIT</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_section_9ff248721ba0bfc0aa940f22dd4bcbc9</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-05 00:35:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EAR Equity Request" name="equity">bef248721ba0bfc0aa940f22dd4bcbc5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

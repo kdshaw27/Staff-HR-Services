@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_uocs6_staff_hr_s.employeeEIDScript</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>employeeEIDScript</name>
+        <script><![CDATA[var employeeEIDScript = Class.create();
+employeeEIDScript.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getEID: function () {
+      var employeeName = this.getParameter('sysparm_employeeName');
+      var userInfo = new GlideRecord('x_uocs6_staff_hr_s_shr_user_data');
+
+if (campus.get(loc.parent)){
+    var json = new JSON();
+    var results = {
+            "eid": campus.getValue("u_eid"),
+            "name": campus.getValue("u_user")
+    };
+    return json.encode(results);
+  }
+
+       
+else {    
+              return null;
+      }            
+
+    }
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-10 22:46:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9f536ea01bfc3700aa940f22dd4bcbe1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>employeeEIDScript</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_include_9f536ea01bfc3700aa940f22dd4bcbe1</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 23:01:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

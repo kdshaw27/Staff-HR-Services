@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="proposed_relations_code" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A - Managerial</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>110</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:44:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>207254ed1b3b2b40aa940f22dd4bcb6d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:10:47</sys_updated_on>
+            <value>a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B - Managerial &amp; Confidential</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>120</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:44:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aba218ed1b3b2b40aa940f22dd4bcb2b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:10:50</sys_updated_on>
+            <value>b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C - Supervisory</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>130</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:44:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>28c290ed1b3b2b40aa940f22dd4bcb6a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:10:54</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D - Supervisory &amp; Confidential</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>140</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:45:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>87d2d4ed1b3b2b40aa940f22dd4bcbb2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:10:59</sys_updated_on>
+            <value>d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E - Employee</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>150</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:45:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1cf294ed1b3b2b40aa940f22dd4bcb5c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:11:02</sys_updated_on>
+            <value>e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proposed_relations_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>F - Confidential</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>160</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:45:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0103d4ed1b3b2b40aa940f22dd4bcb2e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:11:06</sys_updated_on>
+            <value>f</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>proposed_relations_code</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-22 21:44:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>27a250ed1b3b2b40aa940f22dd4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>proposed_relations_code</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_proposed_relations_code</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-22 21:44:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

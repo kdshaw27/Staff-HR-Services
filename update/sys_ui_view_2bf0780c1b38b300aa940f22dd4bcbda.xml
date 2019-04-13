@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>jd_update</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-09 01:08:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2bf0780c1b38b300aa940f22dd4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>jd_update</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_view_2bf0780c1b38b300aa940f22dd4bcbda</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-09 01:09:04</sys_updated_on>
+        <title>EAR Job Description Update</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

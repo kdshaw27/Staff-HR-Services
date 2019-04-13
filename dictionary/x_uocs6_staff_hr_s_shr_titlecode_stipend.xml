@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SHR TitleCode Stipend" max_length="40" name="x_uocs6_staff_hr_s_shr_titlecode_stipend" type="collection">
+        <element label="Exempt/NonExempt" max_length="40" name="exempt_nonexempt" type="string"/>
+        <element label="Pay rate" max_length="40" name="pay_rate" type="string"/>
+        <element label="Title Code" max_length="40" name="title_code" type="string"/>
+        <element display="true" label="Title Name" max_length="40" name="title_name" type="string"/>
+    </element>
+</database>

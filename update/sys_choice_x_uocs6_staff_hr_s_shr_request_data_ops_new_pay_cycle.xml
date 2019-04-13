@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ops_new_pay_cycle" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_new_pay_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bi-Weekly</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>110</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:32:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>996a735a1bbfab40aa940f22dd4bcb9f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:07:42</sys_updated_on>
+            <value>biweekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_new_pay_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>120</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:32:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1f7a335a1bbfab40aa940f22dd4bcb47</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:07:46</sys_updated_on>
+            <value>monthly</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ops_new_pay_cycle</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:32:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9b7ab79a1bbfab40aa940f22dd4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ops_new_pay_cycle</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_ops_new_pay_cycle</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 22:32:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

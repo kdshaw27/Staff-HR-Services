@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="EMPLOYEE ACTION" section_id="eff03c0c1b38b300aa940f22dd4bcb97" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3" view="jd_update">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>77daf7811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <text>CURRENT CLASSIFICATION ***** (enter salary as hourly or monthly rate, &lt;font color="red"&gt;not annual&lt;/font&gt;)</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>7bdaf7811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>7fdaf7811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>73daf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <text>&lt;u&gt;Supporting Comments&lt;/u&gt;: Please provide supporting comments and Information to assist the compensation analyst about why this request is being submitted</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>77daf7811b387700938c4223cd4bcb0f</element>
+            <position>0</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>37daf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>b7daf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_classification</element>
+            <position>2</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>3bdaf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_title_code</element>
+            <position>3</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>bbdaf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_personnel_program</element>
+            <position>4</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>3fdaf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_grade</element>
+            <position>5</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>bfdaf7811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_exempt</element>
+            <position>6</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>33daf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_unit</element>
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>b3daf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>37daf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_salary</element>
+            <position>9</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>b7daf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_rate</element>
+            <position>10</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>3bdaf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>bbdaf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7bdaf7811b387700938c4223cd4bcb0f</element>
+            <position>12</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>3fdaf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7fdaf7811b387700938c4223cd4bcb0f</element>
+            <position>13</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>bfdaf7811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>73daf7811b387700938c4223cd4bcb10</element>
+            <position>14</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>33daf7811b387700938c4223cd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>proposed_comments</element>
+            <position>15</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:24:23</sys_created_on>
+            <sys_id>b3daf7811b387700938c4223cd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="EMPLOYEE ACTION" display_value="EMPLOYEE ACTION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">eff03c0c1b38b300aa940f22dd4bcb97</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:24:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>EMPLOYEE ACTION</caption>
+            <header>false</header>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-09 01:08:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>eff03c0c1b38b300aa940f22dd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>EMPLOYEE ACTION</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_section_eff03c0c1b38b300aa940f22dd4bcb97</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-09 01:08:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EAR Job Description Update" name="jd_update">2bf0780c1b38b300aa940f22dd4bcbda</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SHR TitleCodes Full" max_length="40" name="x_uocs6_staff_hr_s_shr_titlecodes_full" type="collection">
+        <element label="Exempt/NonExempt" mandatory="true" max_length="1" name="exempt_nonexempt" type="string"/>
+        <element label="Grade" max_length="3" name="grade" type="string"/>
+        <element label="Personnel Program" mandatory="true" max_length="12" name="personnel_program" type="string"/>
+        <element label="Title Code" mandatory="true" max_length="4" name="title_code" type="string"/>
+        <element choice="1" display="true" label="Title Name" mandatory="true" max_length="40" name="title_name" type="string">
+            <choice/>
+        </element>
+        <element label="TUC" mandatory="true" max_length="4" name="tuc" type="string"/>
+    </element>
+</database>

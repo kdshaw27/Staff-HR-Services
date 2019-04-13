@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_pps_department" label="PPS Department" language="en" table="x_uocs6_staff_hr_s_shr_user_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_pps_department</element>
+            <help/>
+            <hint/>
+            <label>PPS Department</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_user_data</name>
+            <plural>PPS Departments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-01-03 21:56:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ecf5ba9d0fbae3400331847022050eab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PPS Department</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_documentation_x_uocs6_staff_hr_s_shr_user_data_u_pps_department_en</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-01-03 21:56:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

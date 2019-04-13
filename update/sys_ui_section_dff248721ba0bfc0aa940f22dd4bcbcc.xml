@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="DOCUMENTATION" section_id="dff248721ba0bfc0aa940f22dd4bcbcc" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3" view="equity">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f11b3f811b387700938c4223cd4bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text>&lt;H4&gt;&lt;strong&gt;ATTACH SUPPORTING DOCUMENTS&lt;/strong&gt;&lt;/H4&gt;&#13;
+&lt;p&gt;&lt;b&gt;Click&lt;/b&gt; on this paperclip icon&#13;
+&lt;a onclick="saveAttachment(g_form.getTableName(), g_form.getUniqueValue())"&gt;&#13;
+&lt;img title="Attachments..." height="30" src="images/icons/attachment.gifx" border="0" width="30"/&gt;&lt;/a&gt;&#13;
+		to attach documents to this request. Once uploaded just click the "&lt;b&gt;X&lt;/b&gt;" in upper right corner to close the popup window.&lt;/p&gt;&#13;
+	&lt;p&gt;To see the documents you have &lt;b&gt;already&lt;/b&gt; uploaded &lt;b&gt;or&lt;/b&gt; to remove or change a document...&#13;
+		&lt;ul style="padding-left:35px;"&gt;&#13;
+			&lt;li&gt;&lt;b&gt;Click&lt;/b&gt; on the "&lt;b&gt;Manage Attachments&lt;/b&gt;" link at the top of this page to remove or change attachments  &lt;b&gt;or...&lt;/b&gt;&lt;/li&gt;&#13;
+&lt;li style="fpadding-top:4px;"&gt;&lt;b&gt;Click&lt;/b&gt; on the paper clip &lt;a onclick="saveAttachment(g_form.getTableName(), g_form.getUniqueValue())"&gt;&#13;
+&lt;img title="Attachments..." height="30" src="images/icons/attachment.gifx" border="0" width="30"/&gt;&lt;/a&gt; icon again.&lt;/li&gt;&#13;
+		&lt;/ul&gt;&lt;/p&gt;</text>
+            <type display_value="Text on White">eaad27451b143b80938c4223cd4bcb91</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f11b3f811b387700938c4223cd4bcb58</element>
+            <position>0</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>b51b3f811b387700938c4223cd4bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DOCUMENTATION" display_value="DOCUMENTATION" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">dff248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>DOCUMENTATION</caption>
+            <header>false</header>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-05 00:35:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>dff248721ba0bfc0aa940f22dd4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>DOCUMENTATION</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_section_dff248721ba0bfc0aa940f22dd4bcbcc</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-05 00:35:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EAR Equity Request" name="equity">bef248721ba0bfc0aa940f22dd4bcbc5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

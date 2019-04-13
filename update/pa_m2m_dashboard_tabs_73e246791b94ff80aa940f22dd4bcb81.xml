@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="catalog_shr_services">27e2cef51b94ff80aa940f22dd4bcb4a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-20 21:04:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>73e246791b94ff80aa940f22dd4bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>27e2cef51b94ff80aa940f22dd4bcb4a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_73e246791b94ff80aa940f22dd4bcb81</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 21:04:26</sys_updated_on>
+        <tab display_value="New Tab">7fe246791b94ff80aa940f22dd4bcb7e</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ops_approval" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>APPROVED: Enter PPS information</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>110</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aff9bf5a1bbfab40aa940f22dd4bcbc1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:07:15</sys_updated_on>
+            <value>ops_approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROLLBACK: Return to COMP for Revision</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>120</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>682a335a1bbfab40aa940f22dd4bcb40</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:07:20</sys_updated_on>
+            <value>ops_rollback</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ops_approval</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:30:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2c2a3f1a1bbfab40aa940f22dd4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ops_approval</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_ops_approval</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 22:30:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

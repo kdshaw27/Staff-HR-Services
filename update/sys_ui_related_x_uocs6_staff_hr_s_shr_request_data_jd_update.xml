@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="2" view="jd_update">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SHR Request Data - EAR Job Description Update" name="x_uocs6_staff_hr_s_shr_request_data" related_list="NULL" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">40adb2e41b307700aa940f22dd4bcba6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-11 00:39:51</sys_created_on>
+            <sys_id>4cadb2e41b307700aa940f22dd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 00:39:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SHR Request Data - EAR Job Description Update" name="x_uocs6_staff_hr_s_shr_request_data" related_list="NULL" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">40adb2e41b307700aa940f22dd4bcba6</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-11 00:39:51</sys_created_on>
+            <sys_id>40adb2e41b307700aa940f22dd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 00:39:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SHR Request Data - EAR Job Description Update" name="x_uocs6_staff_hr_s_shr_request_data" related_list="NULL" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">40adb2e41b307700aa940f22dd4bcba6</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-11 00:39:51</sys_created_on>
+            <sys_id>44adb2e41b307700aa940f22dd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 00:39:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SHR Request Data - EAR Job Description Update" name="x_uocs6_staff_hr_s_shr_request_data" related_list="NULL" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">40adb2e41b307700aa940f22dd4bcba6</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:623cfe641b307700aa940f22dd4bcba6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-11 00:39:51</sys_created_on>
+            <sys_id>44adfae41b307700aa940f22dd4bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 00:39:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>SHR Request Data - EAR Job Description Update</calculated_name>
+            <filter/>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-11 00:39:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>40adb2e41b307700aa940f22dd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SHR Request Data - EAR Job Description Update</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_related_x_uocs6_staff_hr_s_shr_request_data_jd_update</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 00:39:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="EAR Job Description Update" name="jd_update">2bf0780c1b38b300aa940f22dd4bcbda</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

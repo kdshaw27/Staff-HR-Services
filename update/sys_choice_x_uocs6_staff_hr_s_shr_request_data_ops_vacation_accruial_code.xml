@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ops_vacation_accruial_code" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_vacation_accruial_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>110</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cd7b73da1bbfab40aa940f22dd4bcb3f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:09:29</sys_updated_on>
+            <value>a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_vacation_accruial_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>120</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>809b77da1bbfab40aa940f22dd4bcbce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:09:32</sys_updated_on>
+            <value>b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_vacation_accruial_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>C</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>130</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a59bf3da1bbfab40aa940f22dd4bcbf5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:09:38</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_vacation_accruial_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>D</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>140</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bcabbf9a1bbfab40aa940f22dd4bcb4a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:09:43</sys_updated_on>
+            <value>d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ops_vacation_accruial_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Change</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>150</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>faab3bda1bbfab40aa940f22dd4bcb76</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:09:47</sys_updated_on>
+            <value>no_change</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ops_vacation_accruial_code</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-25 22:37:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>089b77da1bbfab40aa940f22dd4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ops_vacation_accruial_code</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_ops_vacation_accruial_code</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 22:37:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

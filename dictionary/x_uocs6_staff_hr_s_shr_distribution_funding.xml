@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SHR Distribution Funding" max_length="40" name="x_uocs6_staff_hr_s_shr_distribution_funding" type="collection">
+        <element label="Action Link Record" max_length="40" name="action_link_record" reference="x_uocs6_staff_hr_s_shr_request_data" type="reference"/>
+        <element label="Activity Code (XXXXXX)" max_length="6" name="funding_activity_code" type="string"/>
+        <element label="Cost Center (XXXX)" max_length="4" name="funding_cost_center" type="string"/>
+        <element label="FTE (0 - 1)" max_length="4" name="funding_fte" type="string"/>
+        <element label="Fund (XXXXX)" max_length="5" name="funding_fund" type="string"/>
+        <element label="ORG (XXXXXX)" max_length="6" name="funding_org" type="string"/>
+        <element label="Percent (0-100)" max_length="3" name="funding_percent" type="string"/>
+        <element choice="1" label="Source (UNIT or DIV)" mandatory="true" max_length="4" name="funding_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UNIT" sequence="10" value="unit"/>
+                <element inactive_on_update="false" label="DIV" sequence="20" value="div"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sub Funding" max_length="6" name="funding_sub" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sub 1" sequence="10" value="sub1"/>
+                <element inactive_on_update="false" label="Sub 2" sequence="20" value="sub2"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.g_form.getValue('Number');" label="SHR  #" max_length="32" name="fund_request" reference_key="Number" type="string"/>
+        <index name="index">
+            <element name="fund_request"/>
+        </index>
+    </element>
+</database>

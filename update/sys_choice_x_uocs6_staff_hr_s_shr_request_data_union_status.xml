@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="union_status" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Notification Sent</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>10</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:17:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ac609e551b7033006cc8b91bcd4bcbbe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:18:43</sys_updated_on>
+            <value>union_sent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>- - - -</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>20</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:18:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dd70d6551b7033006cc8b91bcd4bcb9f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:18:48</sys_updated_on>
+            <value>union_filler1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Union Approved</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>30</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4890d6551b7033006cc8b91bcd4bcbf3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:19:59</sys_updated_on>
+            <value>union_approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Union Pending</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>40</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>11b0d6551b7033006cc8b91bcd4bcba2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:19:53</sys_updated_on>
+            <value>union_pending</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Notificaiton Period Lapsed</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>50</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:20:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bed016951b7033006cc8b91bcd4bcb19</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:20:44</sys_updated_on>
+            <value>union_lapsed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Response (Status Quo)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>60</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e60156951b7033006cc8b91bcd4bcba7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:21:40</sys_updated_on>
+            <value>union_status_quo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Notification Not Required</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>70</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:21:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0931d6551b7033006cc8b91bcd4bcbf4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:22:32</sys_updated_on>
+            <value>union_not_required</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>- - - -</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>80</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0b5192951b7033006cc8b91bcd4bcbd3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:23:05</sys_updated_on>
+            <value>union_filler2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Union Denied</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>90</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:23:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>94911a951b7033006cc8b91bcd4bcba7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:23:30</sys_updated_on>
+            <value>union_denied</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>union_status</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-13 05:17:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>017092951b7033006cc8b91bcd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>union_status</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_union_status</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-13 05:17:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Staff HR Home Page</name>
+        <static_content><![CDATA[<table style="background-color: #00458c; border-collapse: collapse !important; padding: 0px; margin-bottom: 20px;" border="0" width="100%">
+<tbody>
+<tr>
+<td width="15">&nbsp;</td>
+<td style="border: 0 solid #00458c; border-spacing: 0px; border-collapse: collapse !important; padding: 5px;" align="center" valign="middle" width="150px"><img src="ucsc_logo_noSeal_white.png" height="50" border="0" /></td>
+<td style="padding-right: 20px; font-weight: bold; font-size: 200%; color: #fff;" align="right"><span style="position: relative; top: 17px;">STAFF HUMAN RESOURCES</span> <img src="SHR_page_bug.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-20 23:37:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6d562f11b18ff80aa940f22dd4bcb2d</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Staff HR Home Page</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>content_block_static_f6d562f11b18ff80aa940f22dd4bcb2d</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 17:55:43</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6d562f11b18ff80aa940f22dd4bcb2d"/>
+</record_update>

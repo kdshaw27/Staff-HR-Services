@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="critical_checklist" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1. Master Keys (KEYS)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>100</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-15 23:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>073a74181b1c7780938c4223cd4bcba8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:05:06</sys_updated_on>
+            <value>1. Master Keys (KEYS)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2. Special Supervision Requirements (CHLD)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>200</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-15 23:57:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d86af0181b1c7780938c4223cd4bcbbc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:05:12</sys_updated_on>
+            <value>2. Special Supervision Requirements (CHLD)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3. Controlled Substances/Materials (HAZD)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>300</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-15 23:57:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b7ab8141b1c7780938c4223cd4bcbd3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:05:18</sys_updated_on>
+            <value>3. Controlled Substances/Materials (HAZD)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4. Sensitive Information/Data (INFO)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>400</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:00:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>20baf4181b1c7780938c4223cd4bcb25</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:02:56</sys_updated_on>
+            <value>4. Sensitive Information/Data (INFO)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5. Commercial Machinery/Vehicles (VHCL)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>500</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:01:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e45bfc181b1c7780938c4223cd4bcbaa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:02:59</sys_updated_on>
+            <value>5. Commercial Machinery/Vehicles (VHCL)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6. Professional license, certificate, or degree (LICN)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>600</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:01:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc7bfc941b1c7780938c4223cd4bcbc0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:03:03</sys_updated_on>
+            <value>6. Professional license, certificate, or degree (LICN)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7. National Security (NSEC)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>700</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:02:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b49b34581b1c7780938c4223cd4bcbfd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:03:06</sys_updated_on>
+            <value>7. National Security (NSEC)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8. Cash Management (CASH)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>800</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d5abf8181b1c7780938c4223cd4bcb4d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:03:12</sys_updated_on>
+            <value>8. Cash Management (CASH)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_checklist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9. Contract Management (CONT)</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>900</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-16 00:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>56bb3c181b1c7780938c4223cd4bcb4b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-16 00:03:15</sys_updated_on>
+            <value>9. Contract Management (CONT)</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>critical_checklist</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-03-15 23:56:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bf4abc941b1c7780938c4223cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>critical_checklist</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_critical_checklist</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-03-15 23:56:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

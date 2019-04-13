@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_lists">
+    <content_block_lists action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <category>catalog</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="frame_grey_border">cf52ad460a0a0b6300321234a7187571</frame>
+        <logged_on>false</logged_on>
+        <maximum_entries>5</maximum_entries>
+        <name>Help with Employee Actions</name>
+        <omit_if_empty>false</omit_if_empty>
+        <order>active</order>
+        <order_direction>asc</order_direction>
+        <query/>
+        <script/>
+        <sys_class_name>content_block_lists</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-20 22:08:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>57519a351bd4ff80aa940f22dd4bcb71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Help with Employee Actions</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>content_block_lists_57519a351bd4ff80aa940f22dd4bcb71</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 22:11:58</sys_updated_on>
+        <table>x_uocs6_staff_hr_s_shr_request_data</table>
+        <title>Help with Employee Actions</title>
+        <type display_value="navigation_list_style">5dea59770a0a0be000cb03f4da3ec7ba</type>
+    </content_block_lists>
+</record_update>

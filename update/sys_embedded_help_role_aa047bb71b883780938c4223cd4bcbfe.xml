@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-15 00:10:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aa047bb71b883780938c4223cd4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d4c3b7b71b883780938c4223cd4bcbee</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_embedded_help_role_aa047bb71b883780938c4223cd4bcbfe</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-15 00:10:45</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

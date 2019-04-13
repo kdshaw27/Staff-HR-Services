@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>External Resources</name>
+        <static_content><![CDATA[<ul style="list-style-position: inside;">
+<li><a title="SHR Web Site" href="https://shr.ucsc.edu/" target="_blank">SHR Web Site</a></li>
+<li><a title="TCS Inquiry" href="https://tcs.ucop.edu/tcs/jsp/homePage.htm;jsessionid=8BC9107395CD21559E4454E2D72E61F0.tcsppsappp02-tcs" target="_blank">TCS Inquiry</a></li>
+<li><a title="UCSC Career Tracks" href="https://sites.google.com/a/ucsc.edu/career-tracks-station/home?pli=1" target="_blank">UCSC Career Tracks</a></li>
+</ul>
+<p>&nbsp;</p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-22 17:57:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>386beb521b5873c0aa940f22dd4bcb0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>External Resources</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>content_block_static_386beb521b5873c0aa940f22dd4bcb0f</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 18:04:46</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=386beb521b5873c0aa940f22dd4bcb0f"/>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="critical_position" table="x_uocs6_staff_hr_s_shr_request_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical Position</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence/>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:54:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b3b824aa1b33eb40aa940f22dd4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:54:37</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence/>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>42d864aa1b33eb40aa940f22dd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:55:04</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence/>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:54:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dec864aa1b33eb40aa940f22dd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:54:52</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Type</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence/>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:54:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>88b828ea1b33eb40aa940f22dd4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:54:26</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>critical_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sequence>140</sequence>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6c08602e1b33eb40aa940f22dd4bcb05</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:54:17</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>critical_position</element>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-02-26 01:54:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>48b8602e1b33eb40aa940f22dd4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>critical_position</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_choice_x_uocs6_staff_hr_s_shr_request_data_critical_position</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 01:54:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

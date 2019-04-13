@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="10" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Agent Comp" max_length="32" name="agent_comp" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" reference_qual_condition="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Agent ER" max_length="32" name="agent_er" reference="sys_user_grmember" reference_key="User" reference_qual="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" reference_qual_condition="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Agent LR" max_length="32" name="agent_lr" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" reference_qual_condition="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Agent OPS" max_length="32" name="agent_ops" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=78ac78691bbb2b40aa940f22dd4bcbe6^EQ" reference_qual_condition="group=78ac78691bbb2b40aa940f22dd4bcbe6^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="BG Check Comments" max_length="4000" name="bg_check_comments" type="string"/>
+        <element choice="1" label="BG Check Passed" max_length="20" name="bg_check_passed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BG Check Passed" sequence="10" value="passed"/>
+                <element inactive_on_update="false" label="BG Check Failed" sequence="20" value="failed"/>
+                <element inactive_on_update="false" label="Already Completed" sequence="30" value="already_completed"/>
+            </choice>
+        </element>
+        <element label="Budget Approval" max_length="2" name="budget_approval" type="boolean"/>
+        <element label="Budget Approver" max_length="32" name="budget_approver" reference="sys_user" type="reference"/>
+        <element label="Compensation Analysis" max_length="4000" name="compensation_analysis" type="string"/>
+        <element choice="1" label="Consult" max_length="40" name="consult" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+            </choice>
+        </element>
+        <element label="YES. Requires Criminal BG Check" max_length="2" name="critical_bg_check" type="boolean"/>
+        <element attributes="start_locked=false" choice="1" label="Critical  Checklist (select ALL that apply)" max_length="4000" name="critical_checklist" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="1. Master Keys (KEYS)" sequence="100" value="1. Master Keys (KEYS)"/>
+                <element inactive_on_update="false" label="2. Special Supervision Requirements (CHLD)" sequence="200" value="2. Special Supervision Requirements (CHLD)"/>
+                <element inactive_on_update="false" label="3. Controlled Substances/Materials (HAZD)" sequence="300" value="3. Controlled Substances/Materials (HAZD)"/>
+                <element inactive_on_update="false" label="4. Sensitive Information/Data (INFO)" sequence="400" value="4. Sensitive Information/Data (INFO)"/>
+                <element inactive_on_update="false" label="5. Commercial Machinery/Vehicles (VHCL)" sequence="500" value="5. Commercial Machinery/Vehicles (VHCL)"/>
+                <element inactive_on_update="false" label="6. Professional license, certificate, or degree (LICN)" sequence="600" value="6. Professional license, certificate, or degree (LICN)"/>
+                <element inactive_on_update="false" label="7. National Security (NSEC)" sequence="700" value="7. National Security (NSEC)"/>
+                <element inactive_on_update="false" label="8. Cash Management (CASH)" sequence="800" value="8. Cash Management (CASH)"/>
+                <element inactive_on_update="false" label="9. Contract Management (CONT)" sequence="900" value="9. Contract Management (CONT)"/>
+            </choice>
+        </element>
+        <element label="Does Not Apply (e,g,: Already Completed)" max_length="2" name="critical_does_not_apply" type="boolean"/>
+        <element label="Does Not Apply Reason" max_length="1000" name="critical_does_not_apply_reason" type="string"/>
+        <element label="NO. Not a Critical Position" max_length="2" name="critical_no" type="boolean"/>
+        <element label="YES. Requires other action:" max_length="2" name="critical_other" type="boolean"/>
+        <element label="Critical Other Notes" max_length="256" name="critical_other_notes" type="string"/>
+        <element choice="2" label="Critical Position" max_length="25" name="critical_position" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Critical Position"/>
+                <element inactive_on_update="false" label="No" sequence="140" value="no"/>
+                <element inactive_on_update="false" label="Not Applicable"/>
+                <element inactive_on_update="false" label="Other"/>
+                <element inactive_on_update="false" label="Type"/>
+            </choice>
+        </element>
+        <element label="Yes. Verify license, certificate or degree." max_length="2" name="critical_type" type="boolean"/>
+        <element label="Critical Type Notes" max_length="256" name="critical_type_notes" type="string"/>
+        <element attributes="ref_ac_columns=title_name,ref_auto_completer=AJAXReferenceChoice,max_ref_dropdown=1100" choice="1" hint="Select Employee's current classification" label="Current Classification" mandatory="true" max_length="32" name="current_classification" reference="x_uocs6_staff_hr_s_shr_titlecodes_full" type="reference">
+            <choice/>
+        </element>
+        <element label="Current Exempt" max_length="12" name="current_exempt" read_only="true" type="string"/>
+        <element label="Current Grade" max_length="4" name="current_grade" read_only="true" type="integer"/>
+        <element label="Current Personnel Program" max_length="4" name="current_personnel_program" read_only="true" type="string"/>
+        <element choice="1" label="Current Rate" max_length="12" name="current_rate" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hourly" sequence="10" value="hourly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="20" value="monthly"/>
+            </choice>
+        </element>
+        <element attributes="scale=2" hint="Enter salary as /hr or /month rates" label="Current  Salary $$" mandatory="true" max_length="17" name="current_salary" type="decimal"/>
+        <element attributes="format=none" label="Current Title Code" max_length="4" name="current_title_code" read_only="true" type="integer"/>
+        <element label="Current Unit" max_length="4" name="current_unit" read_only="true" type="string"/>
+        <element label="Department" max_length="40" name="department" read_only="true" reference="x_uocs6_staff_hr_s_shr_user_data" type="reference"/>
+        <element label="Department Old" max_length="40" name="department_old" type="string"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element choice="1" label="Employee Action Code" max_length="40" name="employee_action_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="38 - Reclass Upward" sequence="100" value="upward"/>
+                <element inactive_on_update="false" label="39 - Reclass Lateral" sequence="110" value="lateral"/>
+                <element inactive_on_update="false" label="37 - Reclass Downward" sequence="120" value="downward"/>
+                <element inactive_on_update="false" label="Job Description Update" sequence="130" value="jd_update"/>
+                <element inactive_on_update="false" label="11 - Demotion" sequence="140" value="demotion"/>
+                <element inactive_on_update="false" label="42 - Equity Increase" sequence="150" value="equity"/>
+                <element inactive_on_update="false" label="26 - Stipend" sequence="160" value="stipend"/>
+                <element inactive_on_update="false" label="Stipend Extension" sequence="170" value="stipend_extension"/>
+                <element inactive_on_update="false" label="12 - Transfer" sequence="180" value="transfer"/>
+            </choice>
+        </element>
+        <element label="Employee EID" max_length="20" name="employee_eid" read_only="true" type="string"/>
+        <element dependent="employee" dependent_on_field="employee" label="Employee EID2" max_length="32" name="employee_eid2" reference="x_uocs6_staff_hr_s_shr_user_data" type="reference" use_dependent_field="true"/>
+        <element label="Action End Date" mandatory="true" max_length="40" name="employee_end_date" type="glide_date"/>
+        <element label="Employee (Last Name Sort)" max_length="40" name="employee_last_name_sort" read_only="true" type="string"/>
+        <element label="Employee Original Action Date" max_length="40" name="employee_original_action_date" type="glide_date"/>
+        <element label="Action Start Date" mandatory="true" max_length="40" name="employee_start_date" type="glide_date"/>
+        <element choice="1" label="Employee Status" mandatory="true" max_length="25" name="employee_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Career" sequence="100" value="career"/>
+                <element inactive_on_update="false" label="Partial-Year Career" sequence="110" value="partial-career"/>
+                <element inactive_on_update="false" label="Contract" sequence="120" value="contract"/>
+                <element inactive_on_update="false" label="Limited" sequence="130" value="limited"/>
+            </choice>
+        </element>
+        <element choice="1" label="Term of Action" max_length="20" name="employee_term_of_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Permanent" sequence="100" value="permanent"/>
+                <element inactive_on_update="false" label="Temporary" sequence="110" value="temporary"/>
+            </choice>
+        </element>
+        <element label="Equity Amount $$" max_length="15" name="equity_amount" type="decimal"/>
+        <element label="Equity Grade" max_length="2" name="equity_grade" type="integer"/>
+        <element label="Equity Percent Change" max_length="15" name="equity_percent_change" read_only="true" type="decimal"/>
+        <element label="Equity Rate" max_length="12" name="equity_rate" read_only="true" type="string"/>
+        <element label="Equity Salary $$" max_length="15" name="equity_salary" read_only="true" type="decimal"/>
+        <element choice="1" label="Final Disposition" max_length="40" name="final_disposition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="38 - Reclass Upward" sequence="100" value="upward"/>
+                <element inactive_on_update="false" label="39 - Reclass Lateral" sequence="110" value="lateral"/>
+                <element inactive_on_update="false" label="37 - Reclass Downward" sequence="120" value="downward"/>
+                <element inactive_on_update="false" label="11 - Demotion" sequence="130" value="demotion"/>
+                <element inactive_on_update="false" label="Job Description Update" sequence="140" value="jd_update"/>
+                <element inactive_on_update="false" label="42 - Equity Increase" sequence="150" value="Equity"/>
+                <element inactive_on_update="false" label="26 - Stipend" sequence="160" value="stipend"/>
+                <element inactive_on_update="false" label="Stipend Extension" sequence="170" value="stipend_extension"/>
+                <element inactive_on_update="false" label="Not Approved" sequence="180" value="not_approved"/>
+                <element inactive_on_update="false" label="Union Denied" sequence="190" value="union_denied"/>
+                <element inactive_on_update="false" label="BG Check Failed" sequence="200" value="bgCheck_failed"/>
+                <element inactive_on_update="false" label="Transfer" sequence="210" value="transfer"/>
+            </choice>
+        </element>
+        <element label="OPS Questions" max_length="2000" name="final_ops_clarifying_questions" type="string"/>
+        <element choice="1" label="Final Signatures" max_length="20" name="final_signatures" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="100" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="110" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Union Discusssions Result" max_length="40" name="final_union_discusssions" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Union Denied - FINAL" sequence="100" value="denied_final"/>
+                <element inactive_on_update="false" label="Discussions Successful - Return to COMP Final Dispostion" sequence="110" value="return_comp_final"/>
+            </choice>
+        </element>
+        <element label="Funding Stays the Same" max_length="2" name="funding_same" type="boolean"/>
+        <element choice="1" label="BG Check Required" max_length="4" name="mandatory_bgcheck" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Critical Position" max_length="4" name="mandatory_critical_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="PO Policy Approval Required" max_length="4" name="mandatory_po_policy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Union Notification Required" max_length="40" name="mandatory_union_notification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="OPS Approval" max_length="40" name="ops_approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="APPROVED: Enter PPS information" sequence="110" value="ops_approved"/>
+                <element inactive_on_update="false" label="ROLLBACK: Return to COMP for Revision" sequence="120" value="ops_rollback"/>
+            </choice>
+        </element>
+        <element label="OPS Comments" max_length="4000" name="ops_comments" type="string"/>
+        <element choice="1" label="New Pay Cycle" max_length="12" name="ops_new_pay_cycle" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="110" value="biweekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="120" value="monthly"/>
+            </choice>
+        </element>
+        <element label="Pay Change Date" max_length="40" name="ops_pay_change_date" type="glide_date"/>
+        <element choice="1" label="Pay Cycle Change" max_length="4" name="ops_pay_cycle_change" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Prospective Check" max_length="4" name="ops_prospective_check" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Retro Check" max_length="4" name="ops_retro_check" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="110" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="120" value="no"/>
+            </choice>
+        </element>
+        <element label="Retro Check Date" max_length="40" name="ops_retro_check_date" type="glide_date"/>
+        <element choice="1" label="Vacation Accrual Code" max_length="12" name="ops_vacation_accruial_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="110" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="120" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="130" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="140" value="d"/>
+                <element inactive_on_update="false" label="No Change" sequence="150" value="no_change"/>
+            </choice>
+        </element>
+        <element label="PO Approval" max_length="2" name="po_approval" type="boolean"/>
+        <element label="Principal Officer" max_length="32" name="principal_officer" reference="sys_user" reference_qual="vip=true^EQ" reference_qual_condition="vip=true^EQ" type="reference"/>
+        <element attributes="ref_ac_columns=title_name,ref_auto_completer=AJAXReferenceChoice,max_ref_dropdown=1100" choice="1" hint="Select Employee's proposed classification" label="Proposed Classification" mandatory="true" max_length="32" name="proposed_classification" reference="x_uocs6_staff_hr_s_shr_titlecodes_full" type="reference">
+            <choice/>
+        </element>
+        <element label="Supporting Comments" mandatory="true" max_length="4000" name="proposed_comments" type="string"/>
+        <element label="Proposed Exempt" max_length="12" name="proposed_exempt" read_only="true" type="string"/>
+        <element label="Proposed Grade" max_length="4" name="proposed_grade" read_only="true" type="integer"/>
+        <element label="Proposed  Change  %" max_length="15" name="proposed_percent_change" read_only="true" type="decimal"/>
+        <element label="Proposed Personnel Program" max_length="40" name="proposed_personnel_program" read_only="true" type="string"/>
+        <element choice="1" label="Proposed Rate" max_length="12" name="proposed_rate" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hourly" sequence="110" value="hourly"/>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="120" value="biweekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="130" value="monthly"/>
+            </choice>
+        </element>
+        <element choice="1" label="NEW Relations Code" max_length="40" name="proposed_relations_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A - Managerial" sequence="110" value="a"/>
+                <element inactive_on_update="false" label="B - Managerial &amp; Confidential" sequence="120" value="b"/>
+                <element inactive_on_update="false" label="C - Supervisory" sequence="130" value="c"/>
+                <element inactive_on_update="false" label="D - Supervisory &amp; Confidential" sequence="140" value="d"/>
+                <element inactive_on_update="false" label="E - Employee" sequence="150" value="e"/>
+                <element inactive_on_update="false" label="F - Confidential" sequence="160" value="f"/>
+            </choice>
+        </element>
+        <element hint="Enter salary as /hr or /month rates" label="Proposed Salary $$" mandatory="true" max_length="15" name="proposed_salary" type="decimal"/>
+        <element label="Proposed Salary $$" max_length="15" name="proposed_salary_calc" read_only="true" type="decimal"/>
+        <element attributes="format=none" label="Proposed Title Code" max_length="4" name="proposed_title_code" read_only="true" type="integer"/>
+        <element label="Proposed Unit" max_length="4" name="proposed_unit" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EAR: Classification Review" sequence="10" value="classification"/>
+                <element inactive_on_update="false" label="EAR: Equity Review" sequence="20" value="equity"/>
+                <element inactive_on_update="false" label="EAR: Salary Stipend Review" sequence="30" value="stipend"/>
+                <element inactive_on_update="false" label="EAR: Job Description Update" sequence="40" value="jd_update"/>
+            </choice>
+        </element>
+        <element label="SHR Form Name" max_length="40" name="shr_form_name" type="string"/>
+        <element label="Special Considerations (payroll instructions)" max_length="2000" name="special_considerations" type="string"/>
+        <element label="Stipend Amount $$" mandatory="true" max_length="15" name="stipend_amount" type="decimal"/>
+        <element choice="1" label="Stipend Classification" max_length="32" name="stipend_classification" reference="x_uocs6_staff_hr_s_shr_titlecode_stipend" type="reference">
+            <choice/>
+        </element>
+        <element label="Stipend Exempt" max_length="12" name="stipend_exempt" read_only="true" type="string"/>
+        <element label="Stipend Percent Change" max_length="15" name="stipend_percent_change" type="decimal"/>
+        <element choice="1" label="Stipend Rate" max_length="12" name="stipend_rate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="110" value="biweekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="120" value="monthly"/>
+            </choice>
+        </element>
+        <element label="Stipend Title Code" max_length="4" name="stipend_title_code" read_only="true" type="integer"/>
+        <element choice="1" label="Stipend Type" max_length="15" name="stipend_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Stipend" sequence="110" value="new"/>
+                <element inactive_on_update="false" label="Stipend Extension" sequence="120" value="ext"/>
+            </choice>
+        </element>
+        <element label="Supervisor" mandatory="true" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <element label="Supervisor Approval" max_length="2" name="supervisor_approval" type="boolean"/>
+        <element label="Union Comments" max_length="4000" name="union_comments" type="string"/>
+        <element label="Union Notification Date" max_length="40" name="union_date" type="glide_date"/>
+        <element label="Union Response Date" max_length="40" name="union_response_date" type="glide_date"/>
+        <element choice="1" label="Union Response Status" max_length="20" name="union_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Notification Sent" sequence="10" value="union_sent"/>
+                <element inactive_on_update="false" label="- - - -" sequence="20" value="union_filler1"/>
+                <element inactive_on_update="false" label="Union Approved" sequence="30" value="union_approved"/>
+                <element inactive_on_update="false" label="Union Pending" sequence="40" value="union_pending"/>
+                <element inactive_on_update="false" label="Notificaiton Period Lapsed" sequence="50" value="union_lapsed"/>
+                <element inactive_on_update="false" label="Pending Response (Status Quo)" sequence="60" value="union_status_quo"/>
+                <element inactive_on_update="false" label="Notification Not Required" sequence="70" value="union_not_required"/>
+                <element inactive_on_update="false" label="- - - -" sequence="80" value="union_filler2"/>
+                <element inactive_on_update="false" label="Union Denied" sequence="90" value="union_denied"/>
+            </choice>
+        </element>
+        <element label="Unit Head" max_length="32" name="unit_head" reference="sys_user" type="reference"/>
+        <element label="Unit Head Approval" max_length="2" name="unit_head_approval" type="boolean"/>
+        <element label="Secure File 1" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
+        <element label="Secure FIle 2" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
+    </element>
+</database>

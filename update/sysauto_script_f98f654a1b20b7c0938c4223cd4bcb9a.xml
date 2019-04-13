@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Nightly LDAP Gold feed to SHR User Data table</name>
+        <run_as display_value="Ken Shaw-admin (kdshaw-admin)">54ca7444dbe11b44416c86171b96198c</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-04-03 00:33:00</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// get latest set for an import set table
+// then call a function for each record in that set query
+function getSet() {
+    var isr = new GlideRecord('sys_import_set_run');
+    // Latest LDAP data set
+    isr.addQuery('set.table_name', "u_ucsc_ldap_gold_users");
+    //
+    // The following query can be run after midnight of the previous evening's LDAP load
+    //
+    isr.addQuery('completed', ">", gs.daysAgoStart(1));
+    isr.addQuery('completed', "<", gs.daysAgoStart(0));
+    //
+    // The next query can be run on the same evening (before midnight) of the LDAP load
+    //isr.addQuery('completed', ">", gs.daysAgoStart(0));
+    //
+    isr.orderByDesc("sys_created_on");
+    isr.query();
+    if (isr.next()) {
+	gsprint(isr.set.table_name+ " Set Number is = " +isr.set.number+ ";\tID=" +isr.sys_id+ ".");
+	return isr.set.number;
+    }
+    return "";
+}
+// Prepend log messages with a searchable pattern
+// Glide Record for the User table
+var ugr = new GlideRecord('sys_user');
+function gsprint(msg) {
+    gs.info("IMPORTSET: " +msg);
+    // gs.log("IMPORTSET: " +msg);
+}
+// SHR function +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+function addPPSDeptForSHR(source) {
+    var userID;
+    ugr.initialize();
+    ugr.get('user_name', source.u_uid);
+    userID = ugr.sys_id;
+    ++sourceCount;
+    
+// Add the PPS Departments and the Employee ID to the SHR User [u_user_shr] SCOPED APP table
+  var gr = new GlideRecord("x_uocs6_staff_hr_s_shr_user_data");	// SHR User table
+  gr.addQuery("u_user", userID);
+  gr.query();
+  if (gr.next()) {
+    /* temporary to clear some useless records
+    **
+    if (gr.u_pps_department == "" &&
+	gr.u_eid == "") {
+      gr.deleteRecord();
+    }
+    else
+    **/
+    if (gr.u_pps_department != source.u_ucscpersonppshomedepartment ||
+	gr.u_pps_employee_dept != source.u_ucscpersonemployeedepartment ||
+	gr.u_eid != source.u_ucscpersonppseidnumber) {
+      gr.u_pps_department = source.u_ucscpersonppshomedepartment;
+      gr.u_pps_employee_dept = source.u_ucscpersonemployeedepartment;
+      gr.u_eid = source.u_ucscpersonppseidnumber;
+      gr.update();
+    }
+  }
+  else if (source.u_ucscpersonppseidnumber != "" || 
+       source.u_ucscpersonppshomedepartment != "") {
+    gr.initialize();
+    gr.u_user = userID;
+    gr.u_pps_department = source.u_ucscpersonppshomedepartment;
+    gr.u_eid = source.u_ucscpersonppseidnumber;
+    gr.insert();
+  }
+}
+
+var sourceCount = 0;		// just something to do
+var setNumber = getSet();	// Save the set number for the next query
+gsprint("Today's LDAP Gold Load Set Number is " +setNumber);
+//
+// Now get the latest LDAP Gold load records
+//
+var lgs = new GlideRecord('u_ucsc_ldap_gold_users');
+lgs.addQuery('sys_import_set.number', setNumber);
+lgs.query();
+// Glide count to compate with the sourceCount
+gsprint("Found " +lgs.getRowCount()+ " gold records");
+while (lgs.next()) {
+    var source = lgs;
+    addPPSDeptForSHR(source);	// the SHR function
+}
+gsprint("addPPSDeptForSHR() found " +sourceCount+ " LDAP Gold records in latest set");
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-03 00:34:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f98f654a1b20b7c0938c4223cd4bcb9a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nightly LDAP Gold feed to SHR User Data table</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sysauto_script_f98f654a1b20b7c0938c4223cd4bcb9a</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 00:41:32</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

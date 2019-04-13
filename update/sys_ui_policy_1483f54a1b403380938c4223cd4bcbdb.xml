@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var requestType = g_form.getValue('request_type');
+
+	if (requestType == "classification") {
+		g_form.setValue('supervisor_approval', 'true');
+		g_form.setReadOnly('supervisor_approval', 'true');
+		g_form.setMandatory('budget_approver', 'true');
+		g_form.setValue('budget_approval', "true");
+		g_form.setReadOnly('budget_approval', 'true');
+		g_form.setValue('po_approval', "false");
+		g_form.setValue('employee_term_of_action', "permanent");
+		g_form.setReadOnly('employee_term_of_action', 'true');
+		g_form.showFieldMsg('supervisor_approval','Supervisor gets an approval email.','info');
+		g_form.showFieldMsg('budget_approval','Budget Approver gets an approval email.','info');
+		}
+	
+	else if (requestType == "equity") {
+		g_form.setValue('supervisor_approval', 'true');
+		g_form.setReadOnly('supervisor_approval', 'true');
+		g_form.setMandatory('budget_approver', 'true');
+		g_form.setValue('budget_approval', "true");
+		g_form.setReadOnly('budget_approval', 'true');
+		g_form.setValue('po_approval', "false");
+		g_form.setValue('employee_term_of_action', "permanent");
+		g_form.setReadOnly('employee_term_of_action', 'true');
+		g_form.showFieldMsg('supervisor_approval','Supervisor gets an approval email.','info');
+		g_form.showFieldMsg('budget_approval','Budget Approver gets an approval email.','info');
+		}
+	
+	else if (requestType == "stipend") {
+		g_form.setValue('supervisor_approval', 'true');
+		g_form.setReadOnly('supervisor_approval', 'true');
+		g_form.setMandatory('budget_approver', 'true');
+		g_form.setValue('budget_approval', "true");
+		g_form.setReadOnly('budget_approval', 'true');
+		g_form.setMandatory('principal_officer', 'true');
+		g_form.setValue('employee_term_of_action', "temporary");
+		g_form.setReadOnly('employee_term_of_action', 'true');
+		g_form.showFieldMsg('supervisor_approval','Supervisor gets an approval email.','info');
+		g_form.showFieldMsg('budget_approval','Budget Approver gets an approval email.','info');
+		}
+	
+	else if (requestType == "jd_update") {
+		g_form.setValue('supervisor_approval', "true");
+		g_form.setValue('budget_approval', 'false');
+		g_form.setMandatory('budget_approver', 'false');
+		g_form.setValue('po_approval', "false");
+		g_form.setValue('employee_term_of_action', "permanent");
+		g_form.setReadOnly('employee_term_of_action', 'true');
+		g_form.showFieldMsg('supervisor_approval','Supervisor gets an approval email.','info');
+		}
+}]]></script_true>
+        <set_values/>
+        <short_description>Set DEFAULT Requeset Settings</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-09 04:20:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1483f54a1b403380938c4223cd4bcbdb</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Set DEFAULT Requeset Settings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_policy_1483f54a1b403380938c4223cd4bcbdb</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-09 01:28:54</sys_updated_on>
+        <table>x_uocs6_staff_hr_s_shr_request_data</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

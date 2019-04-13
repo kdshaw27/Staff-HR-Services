@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="frame_grey_border">cf52ad460a0a0b6300321234a7187571</frame>
+        <logged_on>false</logged_on>
+        <name>SHR EARs</name>
+        <static_content><![CDATA[<h4>Employee Action Requests</h4>
+<p><img style="vertical-align: top; padding-left: 5px; padding-right: 4px;" src="images/icons/catalog_item.gifx" alt="Classification Review" /><a title="Classification Review" href="x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=classification&amp;sysparm_view=classification&amp;sysparm_view_forced = true " target="_self">Classification Review</a></p>
+<p><img style="vertical-align: top; padding-left: 5px; padding-right: 4px;" src="images/icons/catalog_item.gifx" alt="Salary Equity Review" /><a title="Salary Equity Review" href="x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=equity&amp;sysparm_view=equity&amp;sysparm_view_forced = true " target="_self">Salary Equity Review</a></p>
+<p><img style="vertical-align: top; padding-left: 5px; padding-right: 4px;" src="images/icons/catalog_item.gifx" alt="Salary Stipend Request" /><a title="Salary Stipend Request" href="x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=stipend&amp;sysparm_view=stipend&amp;sysparm_view_forced = true " target="_self">Salary Stipend Request</a></p>
+<p><img style="vertical-align: top; padding-left: 5px; padding-right: 4px;" src="images/icons/catalog_item.gifx" alt="Job Description Update" /><a title="Job Description Update" href="x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=jd_update&amp;sysparm_view=jd_update&amp;sysparm_view_forced = true " target="_self">Job Description Update</a></p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-22 20:07:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2aa848aa1b9873c0aa940f22dd4bcb70</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>SHR EARs</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>content_block_static_2aa848aa1b9873c0aa940f22dd4bcb70</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-08 18:17:25</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=2aa848aa1b9873c0aa940f22dd4bcb70"/>
+</record_update>

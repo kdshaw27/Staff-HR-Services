@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="- - - BG CHECK - - -" section_id="53f248721ba0bfc0aa940f22dd4bcbcc" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3" view="equity">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>3d1b3f811b387700938c4223cd4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text>&lt;font color="green"&gt; Add&lt;/font&gt; Funding information by clicking on the table field cells to the right of the &lt;font size="+2" color="#AAAAAA"&gt; + &lt;/font&gt;icon.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>311b3f811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>351b3f811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>391b3f811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text>CRITICAL POSITION CHECKLIST</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>3d1b3f811b387700938c4223cd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>311b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <text/>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3d1b3f811b387700938c4223cd4bcb0e</element>
+            <position>0</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f11b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bg_check_passed</element>
+            <position>1</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>751b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>311b3f811b387700938c4223cd4bcb0f</element>
+            <position>2</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f51b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>351b3f811b387700938c4223cd4bcb0f</element>
+            <position>3</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>791b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bg_check_comments</element>
+            <position>4</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f91b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>7d1b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>391b3f811b387700938c4223cd4bcb0f</element>
+            <position>6</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>fd1b3f811b387700938c4223cd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>critical_checklist</element>
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>711b3f811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f11b3f811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3d1b3f811b387700938c4223cd4bcb0f</element>
+            <position>9</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>751b3f811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>311b3f811b387700938c4223cd4bcb10</element>
+            <position>10</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-12 18:25:20</sys_created_on>
+            <sys_id>f51b3f811b387700938c4223cd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="- - - BG CHECK - - -" display_value="- - - BG CHECK - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="bef248721ba0bfc0aa940f22dd4bcbc5">53f248721ba0bfc0aa940f22dd4bcbcc</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-12 18:25:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>- - - BG CHECK - - -</caption>
+            <header>false</header>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-05 00:35:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>53f248721ba0bfc0aa940f22dd4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>- - - BG CHECK - - -</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_section_53f248721ba0bfc0aa940f22dd4bcbcc</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-05 00:35:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EAR Equity Request" name="equity">bef248721ba0bfc0aa940f22dd4bcbc5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

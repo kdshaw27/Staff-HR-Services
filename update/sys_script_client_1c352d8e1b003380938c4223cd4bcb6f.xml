@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>proposed_salary</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Set Reclass PERCENT CHANGE - propSalary</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var newSalaryRated = '';
+
+   //Type appropriate comment here, and begin script below
+	var currentSalary = parseFloat(g_form.getValue('current_salary').replace(/,/g,''));
+		// alert("The current salary is " + currentSalary);
+	var newSalary = parseFloat(g_form.getValue('proposed_salary').replace(/,/g,''));
+		// alert("The new salary is " + newSalary);
+	if (currentSalary < 191) {
+		currentSalary = currentSalary * 174;
+	}
+	
+	if (newSalary < 191) {
+		g_form.setValue('proposed_rate', 'hourly');
+		newSalaryRated = newSalary * 174;
+	}
+	else {
+		g_form.setValue('proposed_rate', 'monthly');
+		newSalaryRated = newSalary;
+	}
+		
+	// Compute % change between old and new salary
+	var change = ((newSalaryRated / currentSalary)*100)-100;
+		change = change.toFixed(2);
+		change = change + ' %';
+	   g_form.setValue('proposed_percent_change',change);
+	
+	
+	// WARNING MESSAGE for Salary Input not matching EXEMPT type
+	var exempt = g_form.getValue('proposed_exempt');
+	
+	if (exempt == 'NON-EXEMPT') {
+		if (newSalary > 192) {
+			g_form.showFieldMsg('proposed_salary', "Salary value must be entered as hourly rate", 'error');
+		}
+		else {
+			g_form.hideFieldMsg('proposed_salary');
+		}
+		
+	}
+	if (exempt == 'EXEMPT') {
+		if (newSalary < 192) {
+			g_form.showFieldMsg('proposed_salary', "Salary value must be entered as a monthly rate", 'error');
+		}
+		else {
+			g_form.hideFieldMsg('proposed_salary');
+		}
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-03-09 03:20:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1c352d8e1b003380938c4223cd4bcb6f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Reclass PERCENT CHANGE - propSalary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_client_1c352d8e1b003380938c4223cd4bcb6f</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 19:46:55</sys_updated_on>
+        <table>x_uocs6_staff_hr_s_shr_request_data</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
