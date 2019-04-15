@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_uocs6_staff_hr_s_shr_request_data">union_approval=union_denied^mandatory_union_notification=yes^EQ<item endquery="false" field="mandatory_union_notification" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+        <conditions table="x_uocs6_staff_hr_s_shr_request_data">union_status=union_denied^EQ<item endquery="false" field="union_status" goto="false" newquery="false" operator="=" or="false" value="union_denied"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -13,12 +13,16 @@
         <on_load>true</on_load>
         <order>200</order>
         <reverse_if_false>true</reverse_if_false>
-        <run_scripts>false</run_scripts>
+        <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-
-}]]></script_false>
+	
+	g_form.hideFieldMsg('final_union_discusssions'); // hide message
+	g_form.setValue('final_disposition', '');
+}
+]]></script_false>
         <script_true><![CDATA[function onCondition() {
-
+	g_form.showFieldMsg('final_union_discusssions', "HOLD Disposition for Union Discussions", 'error');
+	g_form.setValue('final_disposition', 'union_denied');
 }]]></script_true>
         <set_values/>
         <short_description>Hide UNION DISCUSSION if not Union Denie</short_description>
@@ -28,7 +32,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>160c27451bbcb700aa940f22dd4bcb46</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Hide UNION DISCUSSION if not Union Denie</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -37,7 +41,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_ui_policy_160c27451bbcb700aa940f22dd4bcb46</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-12 19:08:04</sys_updated_on>
+        <sys_updated_on>2019-04-13 22:25:35</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <ui_type>0</ui_type>
         <view/>

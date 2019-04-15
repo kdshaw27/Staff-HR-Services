@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="final_union_discusssions" label="Union Discusssions Result" language="en" table="x_uocs6_staff_hr_s_shr_request_data">
+    <sys_documentation element="final_union_discusssions" label="Union Discussions Result" language="en" table="x_uocs6_staff_hr_s_shr_request_data">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>final_union_discusssions</element>
             <help/>
             <hint/>
-            <label>Union Discusssions Result</label>
+            <label>Union Discussions Result</label>
             <language>en</language>
             <name>x_uocs6_staff_hr_s_shr_request_data</name>
-            <plural>Union Discusssions Results</plural>
+            <plural>Union Discussions Results</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kdshaw-admin</sys_created_by>
             <sys_created_on>2019-02-25 22:02:08</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>b493b3961bbfab40aa940f22dd4bcb1b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Union Discusssions Result</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Union Discussions Result</sys_name>
             <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
             <sys_update_name>sys_documentation_x_uocs6_staff_hr_s_shr_request_data_final_union_discusssions_en</sys_update_name>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-03-15 19:34:14</sys_updated_on>
+            <sys_updated_on>2019-04-13 22:39:12</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

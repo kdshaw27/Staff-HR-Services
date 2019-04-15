@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" type="collection">
+    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="10" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Agent Comp" max_length="32" name="agent_comp" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" reference_qual_condition="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" type="reference">
             <choice/>
         </element>
@@ -59,7 +59,7 @@
         </element>
         <element label="Yes. Verify license, certificate or degree." max_length="2" name="critical_type" type="boolean"/>
         <element label="Critical Type Notes" max_length="256" name="critical_type_notes" type="string"/>
-        <element attributes="ref_ac_columns=title_name,ref_auto_completer=AJAXReferenceChoice,max_ref_dropdown=1100" choice="1" hint="Select Employee's current classification" label="Current Classification" mandatory="true" max_length="32" name="current_classification" reference="x_uocs6_staff_hr_s_shr_titlecodes_full" type="reference">
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,max_ref_dropdown=1100" choice="1" hint="Select Employee's current classification" label="Current Classification" mandatory="true" max_length="40" name="current_classification" reference="x_uocs6_staff_hr_s_shr_titlecodes_full" type="reference">
             <choice/>
         </element>
         <element label="Current Exempt" max_length="12" name="current_exempt" read_only="true" type="string"/>
@@ -138,7 +138,7 @@
                 <element inactive_on_update="false" label="No" sequence="110" value="no"/>
             </choice>
         </element>
-        <element choice="1" label="Union Discusssions Result" max_length="40" name="final_union_discusssions" type="choice">
+        <element choice="1" label="Union Discussions Result" max_length="40" name="final_union_discusssions" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Union Denied - FINAL" sequence="100" value="denied_final"/>
                 <element inactive_on_update="false" label="Discussions Successful - Return to COMP Final Dispostion" sequence="110" value="return_comp_final"/>
@@ -243,7 +243,7 @@
         <element attributes="format=none" label="Proposed Title Code" max_length="4" name="proposed_title_code" read_only="true" type="integer"/>
         <element label="Proposed Unit" max_length="4" name="proposed_unit" read_only="true" type="string"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+        <element choice="1" label="Request Type" max_length="40" name="request_type" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="EAR: Classification Review" sequence="10" value="classification"/>
                 <element inactive_on_update="false" label="EAR: Equity Review" sequence="20" value="equity"/>
@@ -251,7 +251,6 @@
                 <element inactive_on_update="false" label="EAR: Job Description Update" sequence="40" value="jd_update"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="SHR Form Name" max_length="40" name="shr_form_name" type="string"/>
         <element label="Special Considerations (payroll instructions)" max_length="2000" name="special_considerations" type="string"/>
         <element label="Stipend Amount $$" mandatory="true" max_length="15" name="stipend_amount" type="decimal"/>
         <element choice="1" label="Stipend Classification" max_length="32" name="stipend_classification" reference="x_uocs6_staff_hr_s_shr_titlecode_stipend" type="reference">

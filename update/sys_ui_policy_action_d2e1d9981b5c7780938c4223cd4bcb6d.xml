@@ -19,7 +19,7 @@
         <sys_updated_by>kdshaw-admin</sys_updated_by>
         <sys_updated_on>2019-03-17 00:27:39</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
-        <ui_policy display_value="Hide Union fields for UNION RESPONSE on NO/None">b4b159981b5c7780938c4223cd4bcb0a</ui_policy>
+        <ui_policy display_value="Hide UNION fields for UNION RESPONSE on NO/None">b4b159981b5c7780938c4223cd4bcb0a</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

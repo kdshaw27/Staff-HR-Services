@@ -17,7 +17,7 @@
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 	var requestType = g_form.getValue('request_type');
-
+	
 	if (requestType == "classification") {
 		g_form.setValue('supervisor_approval', 'true');
 		g_form.setReadOnly('supervisor_approval', 'true');
@@ -75,7 +75,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1483f54a1b403380938c4223cd4bcbdb</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Set DEFAULT Requeset Settings</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -84,7 +84,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_ui_policy_1483f54a1b403380938c4223cd4bcbdb</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-09 01:28:54</sys_updated_on>
+        <sys_updated_on>2019-04-13 20:00:27</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <ui_type>0</ui_type>
         <view/>

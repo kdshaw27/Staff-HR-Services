@@ -8,22 +8,27 @@
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name>OPS Hide APPROVAL Fields</name>
+        <name>OPS Hide APPROVAL Fields ON CHANGE</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading /*|| newValue === ''*/) {
-	    g_form.setDisplay('ops_prospective_check',false);  // hide field
-		g_form.setDisplay('ops_pay_change_date',false);  // hide field
-		g_form.setDisplay('ops_retro_check',false);  // hide field
-		g_form.setDisplay('ops_retro_check_date',false);  // hide field
-		g_form.setDisplay('ops_vacation_accruial_code',false);  // hide field
-		g_form.setDisplay('ops_pay_cycle_change',false);  // hide field
-		g_form.setDisplay('ops_new_pay_cycle',false);  // hide field
-		
-		g_form.setDisplay('ops_comments',false);  // hide field
-		g_form.setDisplay('final_ops_clarifying_questions',false);  // hide field
+   if (isLoading || newValue === '') {
       return;
-	}	
+   }
+
+     //Type appropriate comment here, and begin script below
+ // if (isLoading /*|| newValue === ''*/) {
+	//    g_form.setDisplay('ops_prospective_check',false);  // hide field
+	//	g_form.setDisplay('ops_pay_change_date',false);  // hide field
+	//	g_form.setDisplay('ops_retro_check',false);  // hide field
+	//	g_form.setDisplay('ops_retro_check_date',false);  // hide field
+	//	g_form.setDisplay('ops_vacation_accruial_code',false);  // hide field
+	//	g_form.setDisplay('ops_pay_cycle_change',false);  // hide field
+	//	g_form.setDisplay('ops_new_pay_cycle',false);  // hide field
+		
+	//	g_form.setDisplay('ops_comments',false);  // hide field
+	//	g_form.setDisplay('final_ops_clarifying_questions',false);  // hide field
+//  return;
+//	}	
 	var opsApproval = g_form.getValue('ops_approval');
 	
 	var payCycleChange = g_form.getValue('ops_pay_cycle_change');
@@ -75,7 +80,6 @@
 	    g_form.setDisplay('final_ops_clarifying_questions',false);  // show field
 		g_form.hideFieldMsg('final_ops_clarifying_questions');
 		
-		
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -84,8 +88,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>6e5708d01b987780938c4223cd4bcb05</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_name>OPS Hide APPROVAL Fields</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>OPS Hide APPROVAL Fields ON CHANGE</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
@@ -93,7 +97,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_script_client_6e5708d01b987780938c4223cd4bcb05</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-16 01:17:35</sys_updated_on>
+        <sys_updated_on>2019-04-14 01:33:36</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

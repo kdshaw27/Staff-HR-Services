@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="SHR User Data" max_length="40" name="x_uocs6_staff_hr_s_shr_user_data" type="collection">
+    <element label="SHR User Data" max_length="40" name="x_uocs6_staff_hr_s_shr_user_data" sizeclass="16029" type="collection">
         <element label="EID" max_length="12" name="u_eid" type="string"/>
         <element label="PPS Department" max_length="80" name="u_pps_department" type="string"/>
         <element label="PPS Employee Department" max_length="80" name="u_pps_employee_dept" type="string"/>
-        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element display="true" label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="u_user"/>
         </index>

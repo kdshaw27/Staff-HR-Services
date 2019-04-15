@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>employee</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Get Employee EID TEMPLATE</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+ //client script
+var ga = new GlideAjax('shr_EID_include'); //This argument should be the exact name of the script include. 
+ga.addParam('sysparm_name', 'get_eid_function'); //sysparm_name is the name of the function in the script include to call.
+ga.addParam('sysparm_my_name', "Ken"); //This is an optional parameter which we can reference in the script include. 
+ga.getXML(myCallBack); //This is our callback function, which will process the response.
+
+function myCallBack(response) { //the argument 'response' is automatically provided when the callback funciton is called by the system.
+    //Dig out the 'answer' attribute, which is what our function returns. 
+    var greeting = response.responseXML.documentElement.getAttribute('answer'); 
+    alert(greeting); //alert the result to make sure all is well.
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-14 02:37:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8865b2691b743b00aa940f22dd4bcba1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Employee EID TEMPLATE</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_client_8865b2691b743b00aa940f22dd4bcba1</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-15 01:51:54</sys_updated_on>
+        <table>x_uocs6_staff_hr_s_shr_request_data</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

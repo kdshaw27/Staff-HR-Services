@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>public</access>
+        <access>package_private</access>
         <active>true</active>
-        <api_name>x_uocs6_staff_hr_s.shr_EID_script</api_name>
+        <api_name>x_uocs6_staff_hr_s.shr_EID_include</api_name>
         <client_callable>true</client_callable>
         <description/>
-        <name>shr_EID_script</name>
+        <name>shr_EID_include</name>
         <script><![CDATA[//client-callable script include
 var shr_EID_include = Class.create(); //(auto generated)
-shr_EID_include.prototype = Object.extendsObject(AbstractAjaxProcessor, { //(auto generated)
-    get_eid_function: function() { //Declare a function inside our class.
-        var userName = this.getParameter('sysparm_my_name'); //Get the parameter we passed in from the client script
-        return 'Hiya, ' + userName + '.'; //return a friendly greeting
+
+shr_EID_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, { //(auto generated)
+    get_eid_function:function() { //Declare a function inside our class.
+        var userName = this.getParameter('sysparm_employee_name'); //Get the parameter we passed in from the client script
+        
+		var gr = new GlideRecord('x_uocs6_staff_hr_s_shr_user_data');
+		gr.addQuery('u_user', userName);	
+		gr.query(getEIDnumber);
+		
+		function getEIDnumber(shrUser) {
+		  gr.next();
+			var eid;  //temp var - reusable	
+			eid = gr.u_eid;
+		}	
+		return 'The employee EID for ' + userName + ' is ' ; //return Employee EID greeting
     }
 });
 ]]></script>
@@ -20,14 +31,14 @@ shr_EID_include.prototype = Object.extendsObject(AbstractAjaxProcessor, { //(aut
         <sys_created_on>2019-04-12 00:06:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4b9e73301bfc7700aa940f22dd4bcbf7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>shr_EID_script</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>shr_EID_include</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_script_include_4b9e73301bfc7700aa940f22dd4bcbf7</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-12 20:53:40</sys_updated_on>
+        <sys_updated_on>2019-04-15 03:33:10</sys_updated_on>
     </sys_script_include>
 </record_update>
