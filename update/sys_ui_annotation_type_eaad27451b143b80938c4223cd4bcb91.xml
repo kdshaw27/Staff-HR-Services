@@ -2,17 +2,18 @@
     <sys_ui_annotation_type action="INSERT_OR_UPDATE">
         <active>true</active>
         <name>Text on White</name>
-        <omit_spacer>false</omit_spacer>
+        <omit_spacer>true</omit_spacer>
         <style>border:none;&#13;
 background-color: #ffffff;&#13;
 color: black;&#13;
-margin: 0 20px;</style>
+margin: 0 20px;&#13;
+margin-left: 20px;</style>
         <sys_class_name>sys_ui_annotation_type</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-03-18 20:56:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>eaad27451b143b80938c4223cd4bcb91</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Text on White</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
@@ -20,6 +21,6 @@ margin: 0 20px;</style>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_ui_annotation_type_eaad27451b143b80938c4223cd4bcb91</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-18 20:58:00</sys_updated_on>
+        <sys_updated_on>2019-04-16 17:31:24</sys_updated_on>
     </sys_ui_annotation_type>
 </record_update>

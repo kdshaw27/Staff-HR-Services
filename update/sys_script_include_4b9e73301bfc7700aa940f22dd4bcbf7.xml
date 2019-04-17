@@ -12,17 +12,15 @@ var shr_EID_include = Class.create(); //(auto generated)
 shr_EID_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, { //(auto generated)
     get_eid_function:function() { //Declare a function inside our class.
         var userName = this.getParameter('sysparm_employee_name'); //Get the parameter we passed in from the client script
-        
-		var gr = new GlideRecord('x_uocs6_staff_hr_s_shr_user_data');
-		gr.addQuery('u_user', userName);	
-		gr.query(getEIDnumber);
+		var eid = '';
+		var shrUser = new GlideRecord('x_uocs6_staff_hr_s_shr_user_data');
+		shrUser.addQuery('u_user', userName);	
+		shrUser.query();
 		
-		function getEIDnumber(shrUser) {
-		  gr.next();
-			var eid;  //temp var - reusable	
-			eid = gr.u_eid;
-		}	
-		return 'The employee EID for ' + userName + ' is ' ; //return Employee EID greeting
+		if (shrUser.next()){
+			eid = shrUser.u_eid;
+		}
+		return eid ; //return Employee EID
     }
 });
 ]]></script>
@@ -31,7 +29,7 @@ shr_EID_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-04-12 00:06:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4b9e73301bfc7700aa940f22dd4bcbf7</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>shr_EID_include</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy>read</sys_policy>
@@ -39,6 +37,6 @@ shr_EID_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_script_include_4b9e73301bfc7700aa940f22dd4bcbf7</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-15 03:33:10</sys_updated_on>
+        <sys_updated_on>2019-04-15 18:00:54</sys_updated_on>
     </sys_script_include>
 </record_update>

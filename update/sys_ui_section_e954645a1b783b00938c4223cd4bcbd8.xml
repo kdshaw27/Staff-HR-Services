@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="CONSULT" section_id="e954645a1b783b00938c4223cd4bcbd8" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="3" view="classification">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shr_consult_classification.xml</element>
+            <position>1</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-16 19:40:55</sys_created_on>
+            <sys_id>bf62706a1bb87b00938c4223cd4bcbe6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CONSULT" display_value="CONSULT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">e954645a1b783b00938c4223cd4bcbd8</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-16 19:58:40</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consult</element>
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-16 19:13:27</sys_created_on>
+            <sys_id>617c20661bb87b00938c4223cd4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CONSULT" display_value="CONSULT" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">e954645a1b783b00938c4223cd4bcbd8</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-16 19:13:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>CONSULT</caption>
+            <header>false</header>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-04-15 23:59:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e954645a1b783b00938c4223cd4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CONSULT</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_section_e954645a1b783b00938c4223cd4bcbd8</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-04-15 23:59:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="EAR Classification Request" name="classification">af8b446e1b9873c0aa940f22dd4bcbea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_uocs6_staff_hr_s_shr_request_data</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set OPENED BY to Requester INSERT</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Set OPENED BY with value of REQUESTER
+	var submitter = current.requester;
+	var openBy = current.opened_by;
+	
+	if ('openBy !== submitter') {
+		current.opened_by = submitter;
+	}
+	
+	// Ensure Record NUMBER is unique
+	var curNum = current.number + '';
+ 
+	if(curNum) {
+		var recordClass = current.getRecordClassName();
+		var gr = new GlideRecord(recordClass);
+		gr.addQuery('number', curNum);
+		gr.query();
+
+		if(gr.getRowCount() > 0) {
+			var newNum = global.getNextObjNumberPadded();
+			gs.addInfoMessage("The number " + current.number + " was already used by another " +
+							  recordClass + ". The " + recordClass + " number has been changed to " + newNum);
+			current.number = newNum;
+		}
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-16 16:27:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f22040221b387b00938c4223cd4bcb74</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set OPENED BY to Requester INSERT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_f22040221b387b00938c4223cd4bcb74</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-16 16:47:26</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

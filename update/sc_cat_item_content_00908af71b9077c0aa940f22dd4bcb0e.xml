@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <module display_value="MY SHR Requests">5e51863b1b9077c0aa940f22dd4bcb82</module>
+        <module display_value="CLOSED SHR Requests">5e51863b1b9077c0aa940f22dd4bcb82</module>
         <name>SNCTest example content item</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
@@ -37,7 +37,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("x_uocs6_staff_hr_s_shr_request_data_list.do?sysparm_userpref_module=5e51863b1b9077c0aa940f22dd4bcb82&amp;sysparm_view=Test_view&amp;sysparm_query=requesterDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("x_uocs6_staff_hr_s_shr_request_data_list.do?sysparm_userpref_module=5e51863b1b9077c0aa940f22dd4bcb82&amp;sysparm_view=Test_view&amp;sysparm_query=state=3^ORstate=4^EQ&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>

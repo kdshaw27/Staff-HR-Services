@@ -13,7 +13,7 @@
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_uocs6_staff_hr_s</scope>
-        <scoped_administration>false</scoped_administration>
+        <scoped_administration>true</scoped_administration>
         <short_description/>
         <source>x_uocs6_staff_hr_s</source>
         <store_correlation_id>REPOAPP0000112675</store_correlation_id>
@@ -23,9 +23,9 @@
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2018-12-18 20:48:14</sys_created_on>
         <sys_id>6dfc44900f6ae7000331847022050e08</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-13 08:21:10</sys_updated_on>
+        <sys_updated_on>2019-04-17 16:28:04</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_uocs6_staff_hr_s.shr_client" name="x_uocs6_staff_hr_s.shr_client">bc0ce6bc0fe26b000331847022050e4e</user_role>
