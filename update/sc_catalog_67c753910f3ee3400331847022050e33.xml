@@ -36,14 +36,16 @@
         <size_bytes>7118</size_bytes>
         <size_compressed>7141</size_compressed>
         <state/>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-03-20 23:30:58</sys_created_on>
         <sys_id>d67426711b18ff80aa940f22dd4bcbe4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 23:30:58</sys_updated_on>
+        <sys_updated_on>2019-04-17 20:04:55</sys_updated_on>
         <table_name>ZZ_YYsc_catalog</table_name>
         <table_sys_id>67c753910f3ee3400331847022050e33</table_sys_id>
+        <u_shr_reference/>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>

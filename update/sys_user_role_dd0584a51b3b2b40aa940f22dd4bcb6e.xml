@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
-        <assignable_by/>
+        <assignable_by display_value="x_uocs6_staff_hr_s.shr_app_admin" name="x_uocs6_staff_hr_s.shr_app_admin">2976c9140f2ee7000331847022050e83</assignable_by>
         <can_delegate>true</can_delegate>
-        <description/>
+        <description>Role to gain access to the SHR Request Data table. DOES NOT INCLUDE CLIENTS&#13;
+Various SHR agent groups and support</description>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_uocs6_staff_hr_s.shr_request_data_user</name>
@@ -14,7 +15,7 @@
         <sys_created_on>2019-02-22 20:44:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dd0584a51b3b2b40aa940f22dd4bcb6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_uocs6_staff_hr_s.shr_request_data_user</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
@@ -22,7 +23,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_user_role_dd0584a51b3b2b40aa940f22dd4bcb6e</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-02-22 20:44:26</sys_updated_on>
+        <sys_updated_on>2019-04-17 21:42:07</sys_updated_on>
         <u_kb_group>false</u_kb_group>
     </sys_user_role>
 </record_update>

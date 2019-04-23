@@ -45,14 +45,16 @@
         <size_bytes>17581</size_bytes>
         <size_compressed>15972</size_compressed>
         <state/>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-03-20 23:34:54</sys_created_on>
         <sys_id>84652ab11b18ff80aa940f22dd4bcb50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 23:34:54</sys_updated_on>
+        <sys_updated_on>2019-04-17 20:04:53</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>6e8ada090f32e3400331847022050ec9</table_sys_id>
+        <u_shr_reference/>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>
@@ -83,14 +85,16 @@
         <size_bytes>7118</size_bytes>
         <size_compressed>7141</size_compressed>
         <state/>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-01-03 01:18:56</sys_created_on>
         <sys_id>d5ca92c10f32e3400331847022050eb5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-01-03 01:18:56</sys_updated_on>
+        <sys_updated_on>2019-04-17 20:04:55</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>6e8ada090f32e3400331847022050ec9</table_sys_id>
+        <u_shr_reference/>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>

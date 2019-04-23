@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-23 17:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e702dc341b85b340aa940f22dd4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_uocs6_staff_hr_s_shr_distribution_funding.x_uocs6_staff_hr_s.shr_client</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_security_acl display_value="x_uocs6_staff_hr_s_shr_distribution_funding">45f110741b85b340aa940f22dd4bcb73</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e702dc341b85b340aa940f22dd4bcbd2</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-23 17:04:55</sys_updated_on>
+        <sys_user_role display_value="x_uocs6_staff_hr_s.shr_client" name="x_uocs6_staff_hr_s.shr_client">bc0ce6bc0fe26b000331847022050e4e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

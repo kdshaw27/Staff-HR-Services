@@ -37,15 +37,14 @@
 		  var u = gs.getUserID(); 
 		  var qc = current.addQuery("requester",u).addOrCondition("opened_by",u).addOrCondition("watch_list","CONTAINS",u);
 		// gs.print("query restricted to user: " + u); 
-	}
-]]></script>
+	}]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-04-15 23:09:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1dc79cde1b383b00938c4223cd4bcb21</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>SHR Request Data QUERY</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -54,7 +53,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_script_1dc79cde1b383b00938c4223cd4bcb21</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-16 16:42:00</sys_updated_on>
+        <sys_updated_on>2019-04-18 22:28:10</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

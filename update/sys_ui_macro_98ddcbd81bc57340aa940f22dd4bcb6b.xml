@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>The page that loads when client answers "NO" to have you consulted question</description>
+        <media_type/>
+        <name>shr_consult_no</name>
+        <scoped_name>x_uocs6_staff_hr_s_shr_consult_no</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-22 17:28:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>98ddcbd81bc57340aa940f22dd4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shr_consult_no</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_macro_98ddcbd81bc57340aa940f22dd4bcb6b</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 17:28:40</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+		<div style="margin:0 auto;font-size:130%;width:710px;">
+			<h2 style="margin-top:0px;margin-bottom:16px"> Where have you landed?</h2>
+			<p style="margin-left:20px;"><strong>You responsed NO to the question...</strong></p>
+			<p style="margin-left:50px;"> "<em>Have you consulted with your Compensation or Employee Labor Relations analyst?</em>"</p>
+			<div style="background-color:#eee;margin-top:40px;padding-top:20px;">
+				<p  style="margin:0px 40px;"><strong>Please consult</strong> with your ELR Analyst or Compensation Analyst <strong>prior</strong> to submission of this form to ensure all necessary processes and procedures have been followed.</p>
+			<ul style="margin:20px 40px;">	
+			<li><p>To find your correct contact at SHR, visit this web page: <a href='https://shr.ucsc.edu/contact/locate_team.html' target='_blank'>Locate Your Team</a></p></li>
+
+				<li><p>Visit the main ELR web page: <a href='https://shr.ucsc.edu/elr/' target='_blank'>Employee and Labor Relations</a></p></li>
+				
+
+<li><p>This is a PLACEHOLDER for link to new COMP Web Pages undergoing redesign<br/></p></li>
+				</ul>
+
+			</div>
+		</div>
+
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

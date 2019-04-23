@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>SHR EAR: Classification Review</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Classifications</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="SHR Request Submission" name="SHR Request Submission">a76067d81b097340aa940f22dd4bcb65</question>
+        <roles>x_uocs6_staff_hr_s.shr_client</roles>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-22 20:04:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>168173181b497340aa940f22dd4bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Classifications</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_wizard_answer_168173181b497340aa940f22dd4bcb9a</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-23 00:38:21</sys_updated_on>
+        <table/>
+        <target_url>x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=classification&amp;sysparm_view=classification&amp;sysparm_view_forced = true</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

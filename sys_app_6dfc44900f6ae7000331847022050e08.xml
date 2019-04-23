@@ -44,14 +44,16 @@
         <size_bytes>7118</size_bytes>
         <size_compressed>7141</size_compressed>
         <state/>
+        <sys_class_name>sys_attachment</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-03-04 23:50:28</sys_created_on>
         <sys_id>4c8f00b01b083380aa940f22dd4bcba0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-03-04 23:50:28</sys_updated_on>
+        <sys_updated_on>2019-04-17 20:04:51</sys_updated_on>
         <table_name>ZZ_YYsys_app</table_name>
         <table_sys_id>6dfc44900f6ae7000331847022050e08</table_sys_id>
+        <u_shr_reference/>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>

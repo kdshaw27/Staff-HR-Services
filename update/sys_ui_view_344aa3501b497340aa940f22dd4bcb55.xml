@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,wizardagain</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-22 19:32:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>344aa3501b497340aa940f22dd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,wizardagain</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_view_344aa3501b497340aa940f22dd4bcb55</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:32:05</sys_updated_on>
+        <title>Sys_popup,wizardagain</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

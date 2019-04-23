@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="21" type="collection">
+    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="22" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Agent Comp" max_length="32" name="agent_comp" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" reference_qual_condition="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" type="reference">
             <choice/>
         </element>
@@ -23,7 +23,7 @@
         <element label="Budget Approval" max_length="2" name="budget_approval" type="boolean"/>
         <element label="Budget Approver" max_length="32" name="budget_approver" reference="sys_user" type="reference"/>
         <element label="Compensation Analysis" max_length="4000" name="compensation_analysis" type="string"/>
-        <element choice="1" label="Consult" max_length="40" name="consult" type="choice">
+        <element choice="1" label="Consult" mandatory="true" max_length="40" name="consult" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="20" value="no"/>

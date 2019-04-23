@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>shr_consult_ear</name>
+        <scoped_name>x_uocs6_staff_hr_s_shr_consult_ear</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-22 17:10:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>98f903181bc57340aa940f22dd4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shr_consult_ear</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_ui_macro_98f903181bc57340aa940f22dd4bcb45</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 17:10:51</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<style>	
+p {
+	font-size:120%;
+	}	
+.left {
+    float: left;
+    width: 50%;
+	padding-right:20px;
+}
+.right {
+    float: right;
+    width: 50%;
+	padding-right:20px;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+	</style>	
+	
+<div style='margin:10px 20px 30px 0px;'>
+	<h4>Consult with your Compensation and Classification Analyst or Employee and Labor Relations (ELR) Analyst before completing this form. Use the <a href='https://shr.ucsc.edu/contact/locate_team.html' target='blank'>Locate Your Team</a> page to find the appropriate help you need.</h4>
+	</div>
+<div class="left">
+	<p><strong>Before filling out this form, gather the following information:</strong></p>
+	<ul>
+		<li>Employee Name or Employee CruzID</li>
+		<li>Names/CruzIDs of other departmental approvers</li>
+		<li>Desired start date of action</li>
+		<li>Employee's Current Status (Career, Partial Career, Contract, Limited)</li>
+		<li>Employee's Current Classification</li>
+		<li>Employee's Current Salary</li>
+		<li>Is this a Critical Position?</li>
+		<li>Does this position require a Background Check?</li>
+		<li>Required documentation to attach to request (upload link provided):</li>
+			<ul>
+				<li>Qualification Questionnaire</li>
+				<li>Current and Proposed Job Description</li>
+				<li>Department Organization Chart</li>
+				<li>Job Description Addendum, if applicable</li>
+			</ul>
+		<li>Funding Information</li>
+	</ul>	
+	</div>
+<div class="right">
+	<p><strong>When you submit this request:</strong></p>
+<ul>
+<li style="padding-bottom:10px;">It will be routed through the required designated approval flow of Supervisor and Budget Officer (SHR policy), as well as optional Unit Head and Principal Officer as determined by departmental policy, before being submitted to SHR for processing</li>
+
+<li style="padding-bottom:10px;">HR Compensation will then review the classification review request</li>
+
+<li style="padding-bottom:10px;">You will be notified as to the results of the review and the resulting check date if a financial outcome will take place</li>
+	</ul>	
+	</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
