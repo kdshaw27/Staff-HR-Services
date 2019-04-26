@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<!-- version 1.3   1/18/2019    kdshaw@ucsc.edu--><!-- NOTIFCATION for SHR APPROVALS  --><!-- Subject Line: Approval: ${sysapproval.variables.shr_form_name} for ${sysapproval.variable_pool.employee_name}  --><!--  ++++++++++++++++++++++++++++++++++++  STYLE DEFINITIONS  ++++++++++++++++++++++++++++++++++++++  --><!--  ++++++++++++++++++++++++++  LAYOUT IS RESPONSIVE - NO FIXED WIDTH  +++++++++++++++++++++++++++++  -->
+<style><!--
+a { color:#FF6600; } a { color:#645E58;} a:hover { text-decoration: none; }
+#main {background-color:#FFFFFF; margin: 20px auto;} 
+p {font-size:12px; font-weight:normal; color:#333; font-family:arial; line-height:110%; margin:15px 40px;}
+td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-height:110%; margin:15px 40px;}
+.footer a {color:#333;  text-decoration: none; }
+.footer a:link {color:#333;  text-decoration: none; }
+.footer a:visited {color:#333;  text-decoration: none; }
+.table a:visited {color:#333;}
+--></style>
+<div id="main"><!--  ++++++++++++++++++++++++++++++++++++  TABLE FOR EMAIL HEADER  ++++++++++++++++++++++++++++++++++++++  -->
+<table style="border: 0 solid #FFFFFF; border-spacing: 0px; border-collapse: separate; padding: 0px; margin-bottom: 20px;" border="0" width="100%">
+<tbody>
+<tr style="background-color: #00458c;">
+<td width="15">&nbsp;</td>
+<td align="center" valign="middle" width="150px"><img src="ucsc_logo_noSeal_white.png" height="60" /></td>
+<td style="font-weight: bold; font-size: 120%; padding-right: 20px; color: #fff;" align="right">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--  ++++++++++++++++++++++++++++++++++++  END  OF EMAIL HEADER  ++++++++++++++++++++++++++++++++++++++  --> <!--    --> <!--    --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> <!-- +++++++++++++++++++++++++++++++++++  BEGIN BODY CONTENT  ++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<p align="left">Your approval is required:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Action: <strong>${current.sysapproval.request_type} </strong> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department: <strong>${current.sysapproval._department}</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Requestor: <strong>${current.sysapproval.requester}</strong></p>
+<!--    --> <!-- +++++++++++++++++++++++++++++++ SHR EMAIL SCRIPT ++++++++++++++++++++++++++++++ --> <!--  +++++++++++++++++++++ Prints out the Action Summary Section  ++++++++++++++++++++++ -->
+<p>${mail_script:shr_unit_approve_scope}</p>
+<!-- +++++++++++++++++++++++++++++++ END EMAIL SCRIPT ++++++++++++++++++++++++++++++ --> <!--    -->
+<div style="margin: 5px 40px;"><hr />
+<p><strong>${mailto:mailto.approval}</strong> <br />Click above to send the approval email.</p>
+<p><strong>${mailto:mailto.rejection}</strong> <br />Click above to send the rejection email. Please include a rejection reason in your email.</p>
+<p>To view more information about this request, please use this: ${sysapproval.URI_REF}</p>
+<hr />
+<p>Please make your selection at your earliest availability. Before submission to SHR, this request must be approved by the requesting unit. You are indicated on the request as the supervisor, budget approver or other unit officer.</p>
+<p>Please email us at <a href="mailto:SHRhelp@ucsc.edu">SHRhelp@ucsc.edu</a> for additional assistance.</p>
+<hr /></div>
+<p>Thank you,</p>
+<p>SHR Compensation Unit</p>
+<p>&nbsp;</p>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++  END BODY CONTENT  +++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="footer" style="padding-top: 15px;"><!--  ++++++++++++++++++++++++++++++++++++  TABLE FOR EMAIL FOOTER  ++++++++++++++++++++++++++++++++++++++  -->
+<table class="footer" style="color: #333; font-family: arial; font-size: 10px; padding-left: 10px; border-top: 4px solid #888;" width="100%">
+<tbody>
+<tr>
+<td style="padding-left: 20px; color: #333;" width="25%">100 Enterprise Way<br /> Scotts Valley, CA 95066</td>
+<td style="font-size: 2em; color: #333;" align="center">Staff Human Resources</td>
+<!--<td width="50%" align="center">  <img src="images/ucsc_logo_noSeal_white.png" height="35"/></td>-->
+<td style="padding-right: 20px; color: #333;" align="right" valign="middle" width="25%"><a style="color: #333;" href="http://shr.ucsc.edu">shr.ucsc.edu</a></td>
+</tr>
+</tbody>
+</table>
+<!--  ++++++++++++++++++++++++++++++++++++  END OF  EMAIL FOOTER  ++++++++++++++++++++++++++++++++++++++  --></div>
+</div>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>shr.unit.approve.scope</name>
+        <sms_alternate/>
+        <subject>Approval: ${sysapproval.variables.shr_form_name} for ${sysapproval.variable_pool.employee_name}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-24 23:08:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>123eae411bcdf340aa940f22dd4bcb06</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>shr.unit.approve.scope</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sysevent_email_template_123eae411bcdf340aa940f22dd4bcb06</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-25 00:39:05</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

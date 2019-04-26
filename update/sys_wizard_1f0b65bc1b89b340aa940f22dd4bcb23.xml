@@ -2,22 +2,22 @@
     <sys_wizard action="INSERT_OR_UPDATE">
         <back_panel/>
         <intercepts/>
-        <name>SHR Request Submission</name>
+        <name>SHR Requester0</name>
         <next_panel/>
-        <question>EAR: Employee Action Requests - Why type of request do you want to submit?</question>
+        <question/>
         <sys_class_name>sys_wizard</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-04-22 18:49:29</sys_created_on>
+        <sys_created_on>2019-04-23 23:33:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a76067d81b097340aa940f22dd4bcb65</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>SHR Request Submission</sys_name>
+        <sys_id>1f0b65bc1b89b340aa940f22dd4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SHR Requester0</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
-        <sys_update_name>sys_wizard_a76067d81b097340aa940f22dd4bcb65</sys_update_name>
+        <sys_update_name>sys_wizard_1f0b65bc1b89b340aa940f22dd4bcb23</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-24 17:31:00</sys_updated_on>
+        <sys_updated_on>2019-04-23 23:33:30</sys_updated_on>
     </sys_wizard>
 </record_update>

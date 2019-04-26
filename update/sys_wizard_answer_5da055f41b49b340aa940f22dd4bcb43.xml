@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
     <sys_wizard_answer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer>SHR EAR: Job Description Update</answer>
+        <answer>NO, I have not consulted with a SHR Analyst</answer>
         <button_label/>
         <dependent_value/>
         <element/>
-        <name>JD Update</name>
+        <name>NO</name>
         <next_question/>
-        <order>400</order>
+        <order>200</order>
         <payload_name/>
-        <question display_value="SHR Request Submission" name="SHR Request Submission">a76067d81b097340aa940f22dd4bcb65</question>
-        <roles>x_uocs6_staff_hr_s.shr_client</roles>
+        <question display_value="SHR Request Submission" name="SHR Request Submission">657cc1741b49b340aa940f22dd4bcb2b</question>
+        <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-04-22 20:02:16</sys_created_on>
+        <sys_created_on>2019-04-23 21:38:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>460137d41b497340aa940f22dd4bcbc2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>JD Update</sys_name>
+        <sys_id>5da055f41b49b340aa940f22dd4bcb43</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>NO</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
-        <sys_update_name>sys_wizard_answer_460137d41b497340aa940f22dd4bcbc2</sys_update_name>
+        <sys_update_name>sys_wizard_answer_5da055f41b49b340aa940f22dd4bcb43</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 00:28:58</sys_updated_on>
+        <sys_updated_on>2019-04-23 23:26:10</sys_updated_on>
         <table/>
-        <target_url>x_uocs6_staff_hr_s_shr_request_data.do?&amp;sys_id=-1&amp;sysparm_query=request_type=jd_update&amp;sysparm_view=jd_update&amp;sysparm_view_forced = true&amp;sysparm_stack=x_uocs6_staff_hr_s_shr_request_data_list.do</target_url>
+        <target_url>home.do?sysparm_userpref_homepage=64b485fc1b09b340aa940f22dd4bcb40</target_url>
         <type>1</type>
     </sys_wizard_answer>
 </record_update>

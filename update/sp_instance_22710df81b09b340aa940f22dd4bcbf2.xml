@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">a741c93c1b09b340aa940f22dd4bcb7b</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-04-23 20:31:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22710df81b09b340aa940f22dd4bcbf2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sp_instance_22710df81b09b340aa940f22dd4bcbf2</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-04-23 20:34:12</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1 style=\"box-sizing: border-box; font-size: 33px; margin: 18px 0px 9px; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-weight: 500; line-height: 1.1; color: #343d47; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">EAR: Employee Action Requests</h1>\n<p style=\"box-sizing: border-box; margin: 0px 0px 9px; font-size: 15.6px; color: #343d47; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">For help with SHR Service requests, please email&nbsp;<strong style=\"box-sizing: border-box; font-weight: bold;\"><a style=\"box-sizing: border-box; text-decoration: underline; padding: 0px; cursor: pointer; color: blue; background: transparent;\" title=\"\" href=\"mailto:SHRhelp@ucsc.edu\" rel=\"nofollow\" data-original-title=\"SHRhelp@ucsc.edu\">SHRhelp@ucsc.edu</a></strong>.</p>",
+		"displayValue": "<h1 style=\"box-sizing: border-box; font-size: 33px; margin: 18px 0px 9px; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-weight: 500; line-height: 1.1; color: #343d47; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">EAR: Employee Action Requests</h1>\n<p style=\"box-sizing: border-box; margin: 0px 0px 9px; font-size: 15.6px; color: #343d47; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;\">For help with SHR Service requests, please email&nbsp;<strong style=\"box-sizing: border-box; font-weight: bold;\"><a style=\"box-sizing: border-box; text-decoration: underline; padding: 0px; cursor: pointer; color: blue; background: transparent;\" title=\"\" href=\"mailto:SHRhelp@ucsc.edu\" rel=\"nofollow\" data-original-title=\"SHRhelp@ucsc.edu\">SHRhelp@ucsc.edu</a></strong>.</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>

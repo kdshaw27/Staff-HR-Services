@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-04-23 17:14:20">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-04-26 16:40:02">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -456,10 +456,10 @@
                         <sys_created_by>kdshaw-admin</sys_created_by>
                         <sys_created_on>2019-04-23 00:44:35</sys_created_on>
                         <sys_id>e6c1b4281b0d7340aa940f22dd4bcb3f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
+                        <sys_mod_count>2</sys_mod_count>
                         <sys_updated_by>kdshaw-admin</sys_updated_by>
-                        <sys_updated_on>2019-04-23 00:44:35</sys_updated_on>
-                        <value/>
+                        <sys_updated_on>2019-04-23 19:55:12</sys_updated_on>
+                        <value>125</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
