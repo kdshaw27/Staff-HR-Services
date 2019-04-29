@@ -27,10 +27,16 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
 </table>
 <!--  ++++++++++++++++++++++++++++++++++++  END  OF EMAIL HEADER  ++++++++++++++++++++++++++++++++++++++  --> <!--    --> <!--    --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> <!-- +++++++++++++++++++++++++++++++++++  BEGIN BODY CONTENT  ++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <p align="left">Your approval is required:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Action: <strong>${current.sysapproval.request_type} </strong> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department: <strong>${current.sysapproval._department}</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Requestor: <strong>${current.sysapproval.requester}</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Action: <strong>${sysapproval.request_type} </strong> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department: <strong>${sysapproval._department}</strong><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Requestor: <strong>${sysapproval.requester}</strong></p>
 <!--    --> <!-- +++++++++++++++++++++++++++++++ SHR EMAIL SCRIPT ++++++++++++++++++++++++++++++ --> <!--  +++++++++++++++++++++ Prints out the Action Summary Section  ++++++++++++++++++++++ -->
+<p><u>Action Summary:</u></p>
+<div style="margin-left: 20px;">
 <p>${mail_script:shr_unit_approve_scope}</p>
-<!-- +++++++++++++++++++++++++++++++ END EMAIL SCRIPT ++++++++++++++++++++++++++++++ --> <!--    -->
+</div>
+</div>
+<!-- +++++++++++++++++++++++++++++++ END EMAIL SCRIPT ++++++++++++++++++++++++++++++ -->
+<p>&nbsp;</p>
+<!--    -->
 <div style="margin: 5px 40px;"><hr />
 <p><strong>${mailto:mailto.approval}</strong> <br />Click above to send the approval email.</p>
 <p><strong>${mailto:mailto.rejection}</strong> <br />Click above to send the rejection email. Please include a rejection reason in your email.</p>
@@ -42,7 +48,11 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
 <p>Thank you,</p>
 <p>SHR Compensation Unit</p>
 <p>&nbsp;</p>
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++  END BODY CONTENT  +++++++++++++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<p>&nbsp;</p>
+<!-- ++++++++++++++++++++++++++++++++++++  END BODY CONTENT  +++++++++++++++++++++++++++++++++++++++++ -->
+<p>&nbsp;</p>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <div class="footer" style="padding-top: 15px;"><!--  ++++++++++++++++++++++++++++++++++++  TABLE FOR EMAIL FOOTER  ++++++++++++++++++++++++++++++++++++++  -->
 <table class="footer" style="color: #333; font-family: arial; font-size: 10px; padding-left: 10px; border-top: 4px solid #888;" width="100%">
 <tbody>
@@ -55,19 +65,18 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
 </tbody>
 </table>
 <!--  ++++++++++++++++++++++++++++++++++++  END OF  EMAIL FOOTER  ++++++++++++++++++++++++++++++++++++++  --></div>
-</div>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>shr.unit.approve.scope</name>
         <sms_alternate/>
-        <subject>Approval: ${sysapproval.variables.shr_form_name} for ${sysapproval.variable_pool.employee_name}</subject>
+        <subject>Approval: ${sysapproval.request_type} for ${sysapproval.employee}</subject>
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-04-24 23:08:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>123eae411bcdf340aa940f22dd4bcb06</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>shr.unit.approve.scope</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
@@ -75,7 +84,7 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sysevent_email_template_123eae411bcdf340aa940f22dd4bcb06</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-25 00:39:05</sys_updated_on>
+        <sys_updated_on>2019-04-29 20:32:10</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

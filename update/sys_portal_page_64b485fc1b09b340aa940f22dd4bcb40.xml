@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-04-26 16:40:02">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-04-29 22:37:33">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_3_across_big_center">f77cd9d50a0a0b12009e9d6ebade67ff</layout>
         <order/>
         <read_roles>x_uocs6_staff_hr_s.shr_client</read_roles>
-        <roles/>
+        <roles>x_uocs6_staff_hr_s.shr_app_admin</roles>
         <selectable>true</selectable>
         <sys_class_name>sys_portal_page</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
@@ -11,7 +11,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>64b485fc1b09b340aa940f22dd4bcb40</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>SHR Consult Resources</sys_name>
         <sys_overrides/>
         <sys_package/>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_portal_page_64b485fc1b09b340aa940f22dd4bcb40</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-23 23:31:41</sys_updated_on>
+        <sys_updated_on>2019-04-26 23:42:30</sys_updated_on>
         <title>SHR Consult Resources</title>
         <user/>
         <view>shr_consultpage</view>
