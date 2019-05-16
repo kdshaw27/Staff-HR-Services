@@ -41,11 +41,11 @@
         <read_only>false</read_only>
         <read_roles/>
         <reference display_value="" name="sys_user_grmember">sys_user_grmember</reference>
-        <reference_cascade_rule>cascade</reference_cascade_rule>
+        <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
-        <reference_key>User</reference_key>
-        <reference_qual>group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ</reference_qual>
-        <reference_qual_condition table="sys_user_grmember">group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ<item display_table="sys_user_group" display_value="SHR~ELR Team" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="026c30a91bbb2b40aa940f22dd4bcb2f"/>
+        <reference_key/>
+        <reference_qual>group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ</reference_qual>
+        <reference_qual_condition table="sys_user_grmember">group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ<item display_table="sys_user_group" display_value="SHR+ELR Team" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="b7dac16d1bfcf700aa940f22dd4bcb62"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -57,15 +57,15 @@
         <sys_created_on>2019-02-23 00:37:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e1defe191b78f700aa940f22dd4bcb66</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Agent LR</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_dictionary_x_uocs6_staff_hr_s_shr_request_data_agent_lr</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-04-13 08:40:47</sys_updated_on>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-13 17:16:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

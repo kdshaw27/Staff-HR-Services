@@ -3,69 +3,69 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>222abb411b387700938c4223cd4bcbdd</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>fe72d55b1b15b300938c4223cd4bcbf4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>262abb411b387700938c4223cd4bcbdd</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>f672d55b1b15b300938c4223cd4bcbf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>2a2abb411b387700938c4223cd4bcbdd</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>fa72d55b1b15b300938c4223cd4bcbf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>2e2abb411b387700938c4223cd4bcbdd</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>fe72d55b1b15b300938c4223cd4bcbf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>222abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>f272d55b1b15b300938c4223cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
-            <text>Secure File Attachment (agents only)</text>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
+            <text>Secure File Attachment (COMP &amp; ELR agents only)</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mandatory_bgcheck</element>
             <position>0</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>e22abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>b672d55b1b15b300938c4223cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -73,13 +73,13 @@
             <element>mandatory_critical_position</element>
             <position>1</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>662abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3e72d55b1b15b300938c4223cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -87,13 +87,13 @@
             <element>mandatory_union_notification</element>
             <position>2</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>e62abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>be72d55b1b15b300938c4223cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -101,13 +101,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>6a2abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3272d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -115,41 +115,41 @@
             <element>employee_action_code</element>
             <position>4</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>ea2abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>b272d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>222abb411b387700938c4223cd4bcbdd</element>
+            <element>fe72d55b1b15b300938c4223cd4bcbf4</element>
             <position>5</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>6e2abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3672d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>262abb411b387700938c4223cd4bcbdd</element>
+            <element>f672d55b1b15b300938c4223cd4bcbf5</element>
             <position>6</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>ee2abb411b387700938c4223cd4bcbde</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>b672d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -157,13 +157,13 @@
             <element>proposed_relations_code</element>
             <position>7</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>622abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3a72d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -171,41 +171,41 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>e22abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>ba72d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>2a2abb411b387700938c4223cd4bcbdd</element>
+            <element>fa72d55b1b15b300938c4223cd4bcbf5</element>
             <position>9</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>662abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3e72d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>2e2abb411b387700938c4223cd4bcbdd</element>
+            <element>fe72d55b1b15b300938c4223cd4bcbf5</element>
             <position>10</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>e62abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>be72d55b1b15b300938c4223cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -213,13 +213,13 @@
             <element>compensation_analysis</element>
             <position>11</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>6a2abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3272d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -227,27 +227,27 @@
             <element>special_considerations</element>
             <position>12</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>ea2abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>b272d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>222abb411b387700938c4223cd4bcbde</element>
+            <element>f272d55b1b15b300938c4223cd4bcbf6</element>
             <position>13</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>6e2abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3672d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -255,13 +255,13 @@
             <element>.begin_split</element>
             <position>14</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>ee2abb411b387700938c4223cd4bcbdf</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>b672d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -269,13 +269,13 @@
             <element>u_file_attachment_1</element>
             <position>15</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>622abb411b387700938c4223cd4bcbe0</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3a72d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -283,13 +283,13 @@
             <element>.split</element>
             <position>16</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>e22abb411b387700938c4223cd4bcbe0</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>ba72d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -297,13 +297,13 @@
             <element>u_file_attachment_2</element>
             <position>17</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-04-12 18:21:17</sys_created_on>
-            <sys_id>662abb411b387700938c4223cd4bcbe0</sys_id>
+            <sys_created_on>2019-05-14 02:26:24</sys_created_on>
+            <sys_id>3e72d55b1b15b300938c4223cd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="- - - SHR REVIEW - - -" display_value="- - - SHR REVIEW - - -" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="af8b446e1b9873c0aa940f22dd4bcbea">6f8bc46e1b9873c0aa940f22dd4bcb01</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-04-12 18:21:17</sys_updated_on>
+            <sys_updated_on>2019-05-14 02:26:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

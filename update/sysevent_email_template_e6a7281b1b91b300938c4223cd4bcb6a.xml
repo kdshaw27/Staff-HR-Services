@@ -22,29 +22,11 @@
 <!-- +++++++++++++++++++++++++++++++ SHR EMAIL SCRIPT ++++++++++++++++++++++++++++++ --> <!-- ++++++++++++++++++ Prints out the Action Summary Section  +++++++++++++++++++++ -->
 <p><u>Action Summary:</u></p>
 <div style="margin-left: 20px;"><!-- +++++++++++++++++++  Mail Script for REQUEST FIELDS +++++++++++++++++++++ --> ${mail_script:shr_unit_approve_scope}</div>
-<div style="margin-left: 20px;">&nbsp;</div>
 <!-- +++++++++++++++++++++++++++++++ END EMAIL SCRIPT ++++++++++++++++++++++++++++++ -->
-<div><hr align="left" width="500px" /><!-- +++++++++++++++++++++++++++  APPROVE Button  +++++++++++++++++++++  -->
-<div>
-<table cellspacing="3" cellpadding="7">
-<tbody>
-<tr>
-<td style="font-size: 14px; line-height: 70%; color: white !important; font-family: Tahoma,Arial,Helvetica,sans-serif; padding: 10px 20px; border-radius: 5px;" valign="top" bgcolor="#228B22"><strong> <span style="color: white;"> ${mail_script:shr_APPROVE_button}</span></strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-<hr align="left" width="500px" /><!-- +++++++++++++++++++++++++++  REJECT Button  +++++++++++++++++++++  -->
-<div>
-<table cellspacing="3" cellpadding="7">
-<tbody>
-<tr>
-<td style="font-size: 14px; line-height: 70%; color: white !important; font-family: Tahoma,Arial,Helvetica,sans-serif; padding: 10px 20px; border-radius: 5px;" valign="top" bgcolor="#DC143C"><strong> <span style="color: white;"> ${mail_script:shr_REJECT_button} </span></strong></td>
-</tr>
-</tbody>
-</table>
-<p>Please include a rejection reason in your email.</p>
-</div>
+<p>&nbsp;</p>
+<div><hr align="left" width="500px" />
+<p><strong>${mailto:mailto.approval}</strong> <br />Click above to send the approval email.</p>
+<p><strong>${mailto:mailto.rejection}</strong> <br />Click above to send the rejection email. Please include a rejection reason in your email.</p>
 <p>To view more information about this request, please use this: ${sysapproval.URI_REF}</p>
 <hr align="left" width="500px" />
 <p>Please make your selection at your earliest availability. Before submission to SHR, this request must be approved by the requesting unit. You are indicated on the request as the supervisor, budget approver or other unit officer.</p>
@@ -75,23 +57,23 @@
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>shr.unit.approve.scope</name>
+        <name>shr.unit.approve.scope.SAFE</name>
         <sms_alternate/>
         <subject>Approval: ${sysapproval.request_type} for ${sysapproval.employee}</subject>
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-04-24 23:08:22</sys_created_on>
+        <sys_created_on>2019-05-13 23:19:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>123eae411bcdf340aa940f22dd4bcb06</sys_id>
-        <sys_mod_count>29</sys_mod_count>
-        <sys_name>shr.unit.approve.scope</sys_name>
+        <sys_id>e6a7281b1b91b300938c4223cd4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shr.unit.approve.scope.SAFE</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
-        <sys_update_name>sysevent_email_template_123eae411bcdf340aa940f22dd4bcb06</sys_update_name>
+        <sys_update_name>sysevent_email_template_e6a7281b1b91b300938c4223cd4bcb6a</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-14 01:33:30</sys_updated_on>
+        <sys_updated_on>2019-05-13 23:19:21</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

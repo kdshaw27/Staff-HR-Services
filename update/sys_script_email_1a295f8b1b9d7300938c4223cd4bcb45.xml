@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>shr_unit_approve_scope</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+// script by Ken Shaw  kdshaw@ucsc.edu
+// this script looks for SHR Fields to print to approval email
+	
+if (current.sysapproval.request_type == 'classification') {
+	template.print("<p style='margin-bottom:4px;'>Employee Name: <strong>${sysapproval.employee}</strong><br />"); 
+	template.print("Supervisor Name: <strong>${sysapproval.supervisor}</strong></p>"); 
+	template.print("<p style='margin-bottom:4px;'>Current Classification: <strong>${sysapproval.current_classification}</strong><br />"); 
+	template.print("Current Salary: <strong>$${sysapproval.current_salary}</strong><br />"); 
+	template.print("Current Rate: <strong>${sysapproval.current_rate}</strong></p>"); 
+	template.print("<p style='margin-bottom:4px;'>Proposed Classification: <strong>${sysapproval.proposed_classification}</strong><br />"); 
+	template.print("Proposed Salary: <strong>$${sysapproval.proposed_salary}</strong><br />"); 
+	template.print("Proposed Rate: <strong>${sysapproval.proposed_rate}</strong><br />"); 
+	template.print("Change (percent): <strong>${sysapproval.proposed_percent_change} %</strong></p>");
+}	
+			
+else if (current.sysapproval.request_type == 'equity') {
+	template.print("<p style='margin-bottom:4px;'>Employee Name: <b>${sysapproval.employee}</b><br />");
+	template.print("Supervisor Name: <b>${sysapproval.supervisor}</b></p>");
+	template.print("<p style='margin-bottom:4px;'>Current Classification: <b>${sysapproval.current_classification}</b><br />");
+	template.print("Current Salary: <b>$${sysapproval.current_salary}</b><br />");
+	template.print("Current Rate: <b>${sysapproval.current_rate}</b></p>");
+	template.print("<p style='margin-bottom:4px;'>Equity Amount: <b>$${sysapproval.equity_amount}</b><br />");
+	template.print("Proposed Salary: <b>$${sysapproval.proposed_salary_calc}</b><br />");
+	template.print("Proposed Rate: <b>${sysapproval.proposed_rate}</b><br />");
+	template.print("Change (percent): <b>${sysapproval.proposed_percent_change} %</b></p>");
+}
+	
+else if (current.sysapproval.request_type == 'stipend') {
+	template.print("<p style='margin-bottom:4px;'>Employee Name: <b>${sysapproval.employee}</b><br />");
+	template.print("Supervisor Name: <b>${sysapproval.supervisor}</b></p>");
+	template.print("<p style='margin-bottom:4px;'>Current Classification: <b>${csysapproval.current_classification}</b><br />");
+	template.print("Current Salary: <b>$${sysapproval.current_salary}</b><br />");
+	template.print("Current Rate: <b>${sysapproval.current_rate}</b></p>");
+	template.print("<p style='margin-bottom:4px;'>Stipend Classification: <b>${sysapproval.stipend_classification}</b><br />");
+	template.print("Stipend Amount: <b>$${sysapproval.stipend_amount}</b><br />");
+	template.print("Proposed Salary: <b>$${sysapproval.proposed_salary_calc}</b><br />");
+	template.print("Proposed Rate: <b>${sysapproval.proposed_rate}</b><br />");
+	template.print("Change (percent): <b>${sysapproval.proposed_percent_change} %</b></p>");
+}
+	
+	else if (current.sysapproval.request_type == 'jd_update') {
+	template.print("<p style='margin-bottom:4px;'>Employee Name: <b>${sysapproval.employee}</b><br />");
+	template.print("Supervisor Name: <b>${sysapproval.supervisor}</b><br />");
+	template.print("Current Classification: <b>${csysapproval.current_classification}</b></p>");
+	template.print("<p>This Job Description Update has no change to salary or classification. To view the updated job description document, click on the request link SHRXXXXXXX below the red button to open the request and then view the attached documents.</p>");
+	
+}
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-13 17:36:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a295f8b1b9d7300938c4223cd4bcb45</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>shr_unit_approve_scope</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_email_1a295f8b1b9d7300938c4223cd4bcb45</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-14 19:03:08</sys_updated_on>
+    </sys_script_email>
+</record_update>

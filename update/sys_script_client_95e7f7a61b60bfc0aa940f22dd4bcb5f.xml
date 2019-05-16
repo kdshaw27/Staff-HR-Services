@@ -27,6 +27,7 @@
 		g_form.setDisplay('assignment_group',false);
 		g_form.setDisplay('opened_at',false);
 		g_form.setDisplay('closed_at',false);
+		g_form.setDisplay('u_stage',false);
 		g_form.setDisplay('state',false);
 		g_form.setDisplay('watch_list',false);
 		g_form.setDisplay('correlation_id',false);
@@ -59,7 +60,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>95e7f7a61b60bfc0aa940f22dd4bcb5f</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>HIDE AGENT SECTIONS on NEW form Load</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_script_client_95e7f7a61b60bfc0aa940f22dd4bcb5f</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-22 18:36:59</sys_updated_on>
+        <sys_updated_on>2019-05-13 17:48:59</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

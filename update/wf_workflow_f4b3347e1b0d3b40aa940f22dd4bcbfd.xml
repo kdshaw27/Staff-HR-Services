@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":["ad9875381bc9b340aa940f22dd4bcb98"],"activities":{"808e3ec01ba17700938c4223cd4bcbaa":"488e7ac01ba17700938c4223cd4bcbd0","888e3ec01ba17700938c4223cd4bcbb0":"448e7ac01ba17700938c4223cd4bcbd0","048e3ec01ba17700938c4223cd4bcbaf":"c48e7ac01ba17700938c4223cd4bcbd0"},"ends":["048e3ec01ba17700938c4223cd4bcbaf"],"stages":{"448e7ac01ba17700938c4223cd4bcbd0":{"duration":"5 Days","order":100,"stageId":"448e7ac01ba17700938c4223cd4bcbd0","name":"Initial Unit Approvals","value":"initial_unit_approval"},"c48e7ac01ba17700938c4223cd4bcbd0":{"duration":"","order":1600,"stageId":"c48e7ac01ba17700938c4223cd4bcbd0","name":"Complete","value":"complete"},"488e7ac01ba17700938c4223cd4bcbd0":{"duration":"4 Hours","order":200,"stageId":"488e7ac01ba17700938c4223cd4bcbd0","name":"Assign Agents","value":"assign_agents"}}}</activity_stages>
+        <activity_stages>{"subflows":["ad9875381bc9b340aa940f22dd4bcb98"],"activities":{"ec6b3e001ba17700938c4223cd4bcb5a":"a06bf2001ba17700938c4223cd4bcb63","e06bf2001ba17700938c4223cd4bcb6c":"ac6bf2001ba17700938c4223cd4bcb62","e86bf2001ba17700938c4223cd4bcb63":"206bf2001ba17700938c4223cd4bcb63"},"ends":["e06bf2001ba17700938c4223cd4bcb6c"],"stages":{"ac6bf2001ba17700938c4223cd4bcb62":{"duration":"","order":-1,"stageId":"ac6bf2001ba17700938c4223cd4bcb62","name":"Complete","value":"complete"},"206bf2001ba17700938c4223cd4bcb63":{"duration":"2 Hours","order":200,"stageId":"206bf2001ba17700938c4223cd4bcb63","name":"Assign Agents","value":"assign_agents"},"a06bf2001ba17700938c4223cd4bcb63":{"duration":"5 Days","order":100,"stageId":"a06bf2001ba17700938c4223cd4bcb63","name":"Initial Unit Approvals","value":"initial_unit_approval"}}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
         <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
-        <condition table="x_uocs6_staff_hr_s_shr_request_data">request_type=classification^EQ<item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="classification"/>
+        <condition table="x_uocs6_staff_hr_s_shr_request_data">request_type=equity^EQ<item endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="equity"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>408e7ac01ba17700938c4223cd4bcbd3,c48e3ec01ba17700938c4223cd4bcbae,888e3ec01ba17700938c4223cd4bcbb0,008e3ec01ba17700938c4223cd4bcbab,408e3ec01ba17700938c4223cd4bcbad,808e3ec01ba17700938c4223cd4bcbaa,0c8e7ac01ba17700938c4223cd4bcbd3,0c8e3ec01ba17700938c4223cd4bcbaf,048e3ec01ba17700938c4223cd4bcbaf</expected_sequences>
+        <expected_sequences>246bf2001ba17700938c4223cd4bcb6b,a06bf2001ba17700938c4223cd4bcb6a,ec6b3e001ba17700938c4223cd4bcb5a,646b3e001ba17700938c4223cd4bcb56,e46bf2001ba17700938c4223cd4bcb68,e86bf2001ba17700938c4223cd4bcb63,606b3e001ba17700938c4223cd4bcb51,a46bf2001ba17700938c4223cd4bcb65,e06bf2001ba17700938c4223cd4bcb6c</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>408e7ac01ba17700938c4223cd4bcbd3,c48e3ec01ba17700938c4223cd4bcbae,888e3ec01ba17700938c4223cd4bcbb0,008e3ec01ba17700938c4223cd4bcbab,408e3ec01ba17700938c4223cd4bcbad,808e3ec01ba17700938c4223cd4bcbaa,408e7ac01ba17700938c4223cd4bcbd1,0c8e7ac01ba17700938c4223cd4bcbd3,088e3ec01ba17700938c4223cd4bcbb1,0c8e3ec01ba17700938c4223cd4bcbaf,048e3ec01ba17700938c4223cd4bcbaf</full_sequences>
+        <full_sequences>246bf2001ba17700938c4223cd4bcb6b,a06bf2001ba17700938c4223cd4bcb6a,ec6b3e001ba17700938c4223cd4bcb5a,646b3e001ba17700938c4223cd4bcb56,e46bf2001ba17700938c4223cd4bcb68,e86bf2001ba17700938c4223cd4bcb63,646bf2001ba17700938c4223cd4bcb66,606b3e001ba17700938c4223cd4bcb51,606b3e001ba17700938c4223cd4bcb5a,a46bf2001ba17700938c4223cd4bcb65,e06bf2001ba17700938c4223cd4bcb6c</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
-        <name>shrClassification</name>
+        <name>shrEquity</name>
         <not_cacheable>false</not_cacheable>
         <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
-        <order>100</order>
+        <order>60</order>
         <pin_type>set_by_activity</pin_type>
         <published>true</published>
         <relative_duration display_value="10 business days by 4pm if before 4pm">4f77fe31f91f41806a93f739a565d27e</relative_duration>
@@ -29,255 +29,255 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">408e7ac01ba17700938c4223cd4bcbd3</start>
+        <start display_value="Begin">246bf2001ba17700938c4223cd4bcb6b</start>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e7ac01ba17700938c4223cd4bcbcf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2019-05-16 18:00:10</sys_created_on>
+        <sys_id>a06bf2001ba17700938c4223cd4bcb61</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:32</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:52</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <timezone/>
         <validated>false</validated>
-        <workflow display_value="shrClassification">32c7b5b41bc9b340aa940f22dd4bcb15</workflow>
+        <workflow display_value="shrEquity">f4b3347e1b0d3b40aa940f22dd4bcbfd</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
         <access>public</access>
         <description/>
-        <name>shrClassification</name>
+        <name>shrEquity</name>
         <preview/>
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-04-24 00:28:55</sys_created_on>
+        <sys_created_on>2019-04-30 00:39:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>32c7b5b41bc9b340aa940f22dd4bcb15</sys_id>
+        <sys_id>f4b3347e1b0d3b40aa940f22dd4bcbfd</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>shrClassification</sys_name>
+        <sys_name>shrEquity</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
-        <sys_update_name>wf_workflow_32c7b5b41bc9b340aa940f22dd4bcb15</sys_update_name>
+        <sys_update_name>wf_workflow_f4b3347e1b0d3b40aa940f22dd4bcbfd</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 17:42:14</sys_updated_on>
+        <sys_updated_on>2019-05-02 17:42:52</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <template>false</template>
         <vars/>
     </wf_workflow>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Assign Agents</name>
-        <ola>1970-01-01 04:00:00</ola>
+        <ola>1970-01-01 02:00:00</ola>
         <order>200</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e7ac01ba17700938c4223cd4bcbd0</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>206bf2001ba17700938c4223cd4bcb63</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>assign_agents</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>BG Check Results</name>
         <ola>1970-01-11 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>9dc4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>89e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>bg_check_results</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Complete</name>
         <ola>1970-01-01 00:00:00</ola>
-        <order>1600</order>
+        <order/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e7ac01ba17700938c4223cd4bcbd0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6bf2001ba17700938c4223cd4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:14:25</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Final Disposition</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>91c4c7c41ba17700938c4223cd4bcb64</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>8de447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>final_disposition</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Final Notifications</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1500</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>11c4c7c41ba17700938c4223cd4bcb64</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>0de447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>final_notifications</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Final Review</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>600</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>19c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>05e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>final_review</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Final Signatures</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>1200</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>9dc4c7c41ba17700938c4223cd4bcb62</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>89e447081ba17700938c4223cd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>final_signatures</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Initial Review</name>
         <ola>1970-01-11 00:00:00</ola>
         <order>400</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>99c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>85e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>initial_review</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Initial Unit Approvals</name>
         <ola>1970-01-06 00:00:00</ola>
         <order>100</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e7ac01ba17700938c4223cd4bcbd0</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06bf2001ba17700938c4223cd4bcb63</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>initial_unit_approval</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Payroll Processing</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>1300</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>15c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>01e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>payroll_processing</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>PO's Policy Approval</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>700</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>1dc4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>09e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>po_approval</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Office of Record Prining</name>
         <ola>1970-01-02 00:00:00</ola>
         <order>1400</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>91c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>8de447081ba17700938c4223cd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>printing</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Submitted</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>15c4c7c41ba17700938c4223cd4bcb64</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>01e447081ba17700938c4223cd4bcb46</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>submitted</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Union Notification</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>800</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>d5c4c7c41ba17700938c4223cd4bcb62</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>c5e447081ba17700938c4223cd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>union_notification</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Union Response</name>
         <ola>1970-01-31 00:00:00</ola>
         <order>900</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>11c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>0de447081ba17700938c4223cd4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>union_response</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Unit Approves Review</name>
         <ola>1970-01-03 00:00:00</ola>
         <order>500</order>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:41:11</sys_created_on>
-        <sys_id>95c4c7c41ba17700938c4223cd4bcb63</sys_id>
+        <sys_created_on>2019-05-16 18:41:43</sys_created_on>
+        <sys_id>81e447081ba17700938c4223cd4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:11</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:41:43</sys_updated_on>
         <value>unit_approves_review</value>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>9</databus_lookup_id>
+        <databus_lookup_id>10</databus_lookup_id>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
@@ -290,653 +290,325 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e7ac01ba17700938c4223cd4bcbd3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>360</x>
-        <y>340</y>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>330</x>
+        <y>297</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0c8e7ac01ba17700938c4223cd4bcbd3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=606b3e001ba17700938c4223cd4bcb51"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>610</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>700</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>620</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>f6925d651b303b00aa940f22dd4bcb4e</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>task</value>
-        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1700</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>250</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e7ac01ba17700938c4223cd4bcbd5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>206b3e001ba17700938c4223cd4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>4c8e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>1300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>4c8e7ac01ba17700938c4223cd4bcbd4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>246b3e001ba17700938c4223cd4bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>246b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e7ac01ba17700938c4223cd4bcbd6</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686b3e001ba17700938c4223cd4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>720</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e7ac01ba17700938c4223cd4bcbd5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6b3e001ba17700938c4223cd4bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1710</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
-// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
-//&#13;
-// For example:&#13;
-//     task.short_description = current.short_description;&#13;
-&#13;
-</value>
-        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>600</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e7ac01ba17700938c4223cd4bcbd3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>40</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1000</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>710</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c88e3ec01ba17700938c4223cd4bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>cc8e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>4f77fe31f91f41806a93f739a565d27e</value>
-        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcba8</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06b3e001ba17700938c4223cd4bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>task</value>
         <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c88e3ec01ba17700938c4223cd4bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>40</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>250</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>cc8e7ac01ba17700938c4223cd4bcbd5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46b3e001ba17700938c4223cd4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>4f77fe31f91f41806a93f739a565d27e</value>
         <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>600</order>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>40</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e7ac01ba17700938c4223cd4bcbd3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a86b3e001ba17700938c4223cd4bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>610</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>620</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>700</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e7ac01ba17700938c4223cd4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>710</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e7ac01ba17700938c4223cd4bcbd4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6b3e001ba17700938c4223cd4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>720</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e3ec01ba17700938c4223cd4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1000</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e3ec01ba17700938c4223cd4bcba8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>Fields</value>
-        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>f6925d651b303b00aa940f22dd4bcb4e</value>
-        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e7ac01ba17700938c4223cd4bcbd6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>4c8e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>1400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>4c8e3ec01ba17700938c4223cd4bcba8</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6b3e001ba17700938c4223cd4bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e7ac01ba17700938c4223cd4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>1600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e7ac01ba17700938c4223cd4bcbd5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
-        <order>1700</order>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46b3e001ba17700938c4223cd4bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>f6925d651b303b00aa940f22dd4bcb4e</value>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>1710</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcba8</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86b3e001ba17700938c4223cd4bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
 // Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
 //&#13;
@@ -948,21 +620,349 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e7ac01ba17700938c4223cd4bcbd3</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>task</value>
+        <variable display_value="">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a86b3e001ba17700938c4223cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>246b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>206b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>4f77fe31f91f41806a93f739a565d27e</value>
+        <variable display_value="">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46b3e001ba17700938c4223cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46b3e001ba17700938c4223cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>f6925d651b303b00aa940f22dd4bcb4e</value>
+        <variable display_value="">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>246b3e001ba17700938c4223cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86b3e001ba17700938c4223cd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+&#13;
+</value>
+        <variable display_value="">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>606b3e001ba17700938c4223cd4bcb51</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e7ac01ba17700938c4223cd4bcbd5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6b3e001ba17700938c4223cd4bcb52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">8eca692cc0a80066783fefee57143a1a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Assign COMP and ELR Analysts">0c8e7ac01ba17700938c4223cd4bcbd3</activity>
+        <activity display_value="Assign COMP and ELR Analysts">606b3e001ba17700938c4223cd4bcb51</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -976,11 +976,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c88e3ec01ba17700938c4223cd4bcba9</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6b3e001ba17700938c4223cd4bcb55</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -998,21 +998,21 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>246bf2001ba17700938c4223cd4bcb6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=408e7ac01ba17700938c4223cd4bcbd3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=246bf2001ba17700938c4223cd4bcb6b"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">408e7ac01ba17700938c4223cd4bcbd3</activity>
+        <activity display_value="Begin">246bf2001ba17700938c4223cd4bcb6b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1026,11 +1026,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e7ac01ba17700938c4223cd4bcbd3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6bf2001ba17700938c4223cd4bcb6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -1046,21 +1046,21 @@ answer = 0;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Complete">c48e7ac01ba17700938c4223cd4bcbd0</stage>
+        <stage display_value="Complete">ac6bf2001ba17700938c4223cd4bcb62</stage>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e3ec01ba17700938c4223cd4bcbaf</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06bf2001ba17700938c4223cd4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
         <x>1983</x>
         <y>796</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=048e3ec01ba17700938c4223cd4bcbaf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e06bf2001ba17700938c4223cd4bcb6c"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -1077,49 +1077,49 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>088e3ec01ba17700938c4223cd4bcbb1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
         <x>1808</x>
         <y>221</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=088e3ec01ba17700938c4223cd4bcbb1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=606b3e001ba17700938c4223cd4bcb5a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>088e3ec01ba17700938c4223cd4bcbb1</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb5a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcbb1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>state=4^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>088e3ec01ba17700938c4223cd4bcbb1</document_key>
+        <document_key>606b3e001ba17700938c4223cd4bcb5a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcbb1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>state=4^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set CLOSED INCOMPLETE">088e3ec01ba17700938c4223cd4bcbb1</activity>
+        <activity display_value="Set CLOSED INCOMPLETE">606b3e001ba17700938c4223cd4bcb5a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1133,89 +1133,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>cc8e3ec01ba17700938c4223cd4bcbb1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>10</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Set STAGE</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage display_value="Initial Unit Approvals">448e7ac01ba17700938c4223cd4bcbd0</stage>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>36</x>
-        <y>277</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=888e3ec01ba17700938c4223cd4bcbb0"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>888e3ec01ba17700938c4223cd4bcbb0</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e3ec01ba17700938c4223cd4bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>u_stage=Initial Unit Approvals^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>888e3ec01ba17700938c4223cd4bcbb0</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e3ec01ba17700938c4223cd4bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>u_stage=Initial Unit Approvals^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set STAGE">888e3ec01ba17700938c4223cd4bcbb0</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcbb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1224,58 +1146,58 @@ answer = 0;</value>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Set STAGE</name>
+        <name>set Stage</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Assign Agents">488e7ac01ba17700938c4223cd4bcbd0</stage>
+        <stage display_value="Initial Unit Approvals">a06bf2001ba17700938c4223cd4bcb63</stage>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e3ec01ba17700938c4223cd4bcbaa</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6b3e001ba17700938c4223cd4bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>320</x>
-        <y>173</y>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>25</x>
+        <y>292</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=808e3ec01ba17700938c4223cd4bcbaa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec6b3e001ba17700938c4223cd4bcb5a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>808e3ec01ba17700938c4223cd4bcbaa</document_key>
+        <document_key>ec6b3e001ba17700938c4223cd4bcb5a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e3ec01ba17700938c4223cd4bcbaa</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb5b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>u_stage=Assign Agents^EQ</value>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>u_stage=Initial Unit Approvals^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>808e3ec01ba17700938c4223cd4bcbaa</document_key>
+        <document_key>ec6b3e001ba17700938c4223cd4bcb5a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e3ec01ba17700938c4223cd4bcbaa</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb5b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>u_stage=Assign Agents^EQ</value>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>u_stage=Initial Unit Approvals^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set STAGE">808e3ec01ba17700938c4223cd4bcbaa</activity>
+        <activity display_value="set Stage">ec6b3e001ba17700938c4223cd4bcb5a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1289,11 +1211,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbaa</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46b3e001ba17700938c4223cd4bcb5b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -1311,49 +1233,49 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>0c8e3ec01ba17700938c4223cd4bcbaf</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46bf2001ba17700938c4223cd4bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>1447</x>
-        <y>769</y>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>1281</x>
+        <y>774</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=0c8e3ec01ba17700938c4223cd4bcbaf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a46bf2001ba17700938c4223cd4bcb65"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e3ec01ba17700938c4223cd4bcbaf</document_key>
+        <document_key>a46bf2001ba17700938c4223cd4bcb65</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcbaf</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286bf2001ba17700938c4223cd4bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>0c8e3ec01ba17700938c4223cd4bcbaf</document_key>
+        <document_key>a46bf2001ba17700938c4223cd4bcb65</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcbaf</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286bf2001ba17700938c4223cd4bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set STATE to Closed Complete">0c8e3ec01ba17700938c4223cd4bcbaf</activity>
+        <activity display_value="Set STATE to Closed Complete">a46bf2001ba17700938c4223cd4bcb65</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1367,11 +1289,89 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e3ec01ba17700938c4223cd4bcbb0</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6bf2001ba17700938c4223cd4bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>set Values</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Assign Agents">206bf2001ba17700938c4223cd4bcb63</stage>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86bf2001ba17700938c4223cd4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>333</x>
+        <y>145</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e86bf2001ba17700938c4223cd4bcb63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e86bf2001ba17700938c4223cd4bcb63</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606bf2001ba17700938c4223cd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>u_stage=Assign Agents^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e86bf2001ba17700938c4223cd4bcb63</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606bf2001ba17700938c4223cd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>u_stage=Assign Agents^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="set Values">e86bf2001ba17700938c4223cd4bcb63</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6bf2001ba17700938c4223cd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
@@ -1389,49 +1389,49 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e3ec01ba17700938c4223cd4bcbab</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb56</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>60</x>
-        <y>434</y>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>51</x>
+        <y>458</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=008e3ec01ba17700938c4223cd4bcbab"/>
+    <sys_variable_value action="delete_multiple" query="document_key=646b3e001ba17700938c4223cd4bcb56"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>008e3ec01ba17700938c4223cd4bcbab</document_key>
+        <document_key>646b3e001ba17700938c4223cd4bcb56</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e3ec01ba17700938c4223cd4bcbab</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686b3e001ba17700938c4223cd4bcb56</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>888e3ec01ba17700938c4223cd4bcbab</value>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>e06b3e001ba17700938c4223cd4bcb57</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>008e3ec01ba17700938c4223cd4bcbab</document_key>
+        <document_key>646b3e001ba17700938c4223cd4bcb56</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e3ec01ba17700938c4223cd4bcbab</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686b3e001ba17700938c4223cd4bcb56</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <value>888e3ec01ba17700938c4223cd4bcbab</value>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <value>e06b3e001ba17700938c4223cd4bcb57</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="shr UNIT Approves Request">008e3ec01ba17700938c4223cd4bcbab</activity>
+        <activity display_value="shr UNIT Approves Request">646b3e001ba17700938c4223cd4bcb56</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1445,11 +1445,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e3ec01ba17700938c4223cd4bcbab</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>206b3e001ba17700938c4223cd4bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
@@ -1467,49 +1467,49 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c48e3ec01ba17700938c4223cd4bcbae</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06bf2001ba17700938c4223cd4bcb6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
         <x>20</x>
         <y>143</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c48e3ec01ba17700938c4223cd4bcbae"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a06bf2001ba17700938c4223cd4bcb6a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c48e3ec01ba17700938c4223cd4bcbae</document_key>
+        <document_key>a06bf2001ba17700938c4223cd4bcb6a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbae</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46bf2001ba17700938c4223cd4bcb6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c48e3ec01ba17700938c4223cd4bcbae</document_key>
+        <document_key>a06bf2001ba17700938c4223cd4bcb6a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbae</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46bf2001ba17700938c4223cd4bcb6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>approved</value>
         <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Submitted Request APPROVED">c48e3ec01ba17700938c4223cd4bcbae</activity>
+        <activity display_value="Submitted Request APPROVED">a06bf2001ba17700938c4223cd4bcb6a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1523,11 +1523,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcbae</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6bf2001ba17700938c4223cd4bcb6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -1545,30 +1545,30 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46bf2001ba17700938c4223cd4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
-        <x>321</x>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
+        <x>320</x>
         <y>2</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=408e3ec01ba17700938c4223cd4bcbad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e46bf2001ba17700938c4223cd4bcb68"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606bf2001ba17700938c4223cd4bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -1586,71 +1586,71 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6bf2001ba17700938c4223cd4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86bf2001ba17700938c4223cd4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>approval=approved^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c08e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86bf2001ba17700938c4223cd4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>approval=approved^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ac6bf2001ba17700938c4223cd4bcb68</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e3ec01ba17700938c4223cd4bcbad</document_key>
+        <document_key>e46bf2001ba17700938c4223cd4bcb68</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606bf2001ba17700938c4223cd4bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -1667,7 +1667,7 @@ answer = 0;</value>
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Unit Approval Check">408e3ec01ba17700938c4223cd4bcbad</activity>
+        <activity display_value="Unit Approval Check">e46bf2001ba17700938c4223cd4bcb68</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -1681,14 +1681,14 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e3ec01ba17700938c4223cd4bcbad</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a86bf2001ba17700938c4223cd4bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Unit Approval Check">408e3ec01ba17700938c4223cd4bcbad</activity>
+        <activity display_value="Unit Approval Check">e46bf2001ba17700938c4223cd4bcb68</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -1702,11 +1702,11 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>008e3ec01ba17700938c4223cd4bcbae</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286bf2001ba17700938c4223cd4bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -1724,58 +1724,58 @@ answer = 0;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
         <x>1688</x>
-        <y>52</y>
+        <y>51</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=408e7ac01ba17700938c4223cd4bcbd1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=646bf2001ba17700938c4223cd4bcb66"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e7ac01ba17700938c4223cd4bcbd2</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>088e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd2</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>&lt;!--  version 1.6  1/23/2019    kdshaw@ucsc.edu--&gt;&#13;
 &lt;!--  NOTIFICATION when Requester's UNIT does not approve Request  --&gt;&#13;
 &lt;!--  Subject Line: SHR EAR: Requesting Unit Rejected submitted ${current.variables.shr_form_name}  --&gt;&#13;
@@ -1847,43 +1847,43 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>SHR EAR: Requesting Unit Rejected submitted ${current.variables.shr_form_name}</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c88e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [];&#13;
 answer.push(current.requesterl);</value>
@@ -1891,57 +1891,57 @@ answer.push(current.requesterl);</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e7ac01ba17700938c4223cd4bcbd2</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>8c8e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a06bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>SHR EAR: Requesting Unit Rejected submitted ${current.variables.shr_form_name}</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e7ac01ba17700938c4223cd4bcbd2</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>&lt;!--  version 1.6  1/23/2019    kdshaw@ucsc.edu--&gt;&#13;
 &lt;!--  NOTIFICATION when Requester's UNIT does not approve Request  --&gt;&#13;
 &lt;!--  Subject Line: SHR EAR: Requesting Unit Rejected submitted ${current.variables.shr_form_name}  --&gt;&#13;
@@ -2013,36 +2013,36 @@ td {font-size:12px; font-weight:normal; color:#333333; font-family:arial; line-h
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>088e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>408e7ac01ba17700938c4223cd4bcbd1</document_key>
+        <document_key>646bf2001ba17700938c4223cd4bcb66</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>c88e7ac01ba17700938c4223cd4bcbd1</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6bf2001ba17700938c4223cd4bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [];&#13;
 answer.push(current.requesterl);</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Unit Approval not Received">408e7ac01ba17700938c4223cd4bcbd1</activity>
+        <activity display_value="Unit Approval not Received">646bf2001ba17700938c4223cd4bcb66</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2056,159 +2056,159 @@ answer.push(current.requesterl);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e7ac01ba17700938c4223cd4bcbd2</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6bf2001ba17700938c4223cd4bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">8c8e3ec01ba17700938c4223cd4bcbad</condition>
-        <from display_value="Unit Approval Check">408e3ec01ba17700938c4223cd4bcbad</from>
+        <condition display_value="Always">286b3e001ba17700938c4223cd4bcb5a</condition>
+        <from display_value="Set CLOSED INCOMPLETE">606b3e001ba17700938c4223cd4bcb5a</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcbb4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>206b3e001ba17700938c4223cd4bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Unit Approval not Received">408e7ac01ba17700938c4223cd4bcbd1</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="End">e06bf2001ba17700938c4223cd4bcb6c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">408e3ec01ba17700938c4223cd4bcbb1</condition>
-        <from display_value="Set STAGE">888e3ec01ba17700938c4223cd4bcbb0</from>
+        <condition display_value="Always">6c6bf2001ba17700938c4223cd4bcb65</condition>
+        <from display_value="Set STATE to Closed Complete">a46bf2001ba17700938c4223cd4bcb65</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>408e3ec01ba17700938c4223cd4bcbb5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>286b3e001ba17700938c4223cd4bcb5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="shr UNIT Approves Request">008e3ec01ba17700938c4223cd4bcbab</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="End">e06bf2001ba17700938c4223cd4bcb6c</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c48e3ec01ba17700938c4223cd4bcbab</condition>
-        <from display_value="shr UNIT Approves Request">008e3ec01ba17700938c4223cd4bcbab</from>
+        <condition display_value="Always">6c6bf2001ba17700938c4223cd4bcb6a</condition>
+        <from display_value="Submitted Request APPROVED">a06bf2001ba17700938c4223cd4bcb6a</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e3ec01ba17700938c4223cd4bcbb4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>2c6b3e001ba17700938c4223cd4bcb5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Unit Approval Check">408e3ec01ba17700938c4223cd4bcbad</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="set Stage">ec6b3e001ba17700938c4223cd4bcb5a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c88e3ec01ba17700938c4223cd4bcba9</condition>
-        <from display_value="Assign COMP and ELR Analysts">0c8e7ac01ba17700938c4223cd4bcbd3</from>
+        <condition display_value="Always">206b3e001ba17700938c4223cd4bcb57</condition>
+        <from display_value="shr UNIT Approves Request">646b3e001ba17700938c4223cd4bcb56</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>448e3ec01ba17700938c4223cd4bcbb5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>606b3e001ba17700938c4223cd4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Set STATE to Closed Complete">0c8e3ec01ba17700938c4223cd4bcbaf</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Unit Approval Check">e46bf2001ba17700938c4223cd4bcb68</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">cc8e3ec01ba17700938c4223cd4bcbb1</condition>
-        <from display_value="Set CLOSED INCOMPLETE">088e3ec01ba17700938c4223cd4bcbb1</from>
+        <condition display_value="Yes">286bf2001ba17700938c4223cd4bcb69</condition>
+        <from display_value="Unit Approval Check">e46bf2001ba17700938c4223cd4bcb68</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbb4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>646b3e001ba17700938c4223cd4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="End">048e3ec01ba17700938c4223cd4bcbaf</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="set Values">e86bf2001ba17700938c4223cd4bcb63</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">8c8e3ec01ba17700938c4223cd4bcbae</condition>
-        <from display_value="Submitted Request APPROVED">c48e3ec01ba17700938c4223cd4bcbae</from>
+        <condition display_value="Always">2c6bf2001ba17700938c4223cd4bcb6b</condition>
+        <from display_value="Begin">246bf2001ba17700938c4223cd4bcb6b</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>488e3ec01ba17700938c4223cd4bcbb5</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>686b3e001ba17700938c4223cd4bcb5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Set STAGE">888e3ec01ba17700938c4223cd4bcbb0</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Submitted Request APPROVED">a06bf2001ba17700938c4223cd4bcb6a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">488e7ac01ba17700938c4223cd4bcbd2</condition>
-        <from display_value="Unit Approval not Received">408e7ac01ba17700938c4223cd4bcbd1</from>
+        <condition display_value="Always">ac6b3e001ba17700938c4223cd4bcb55</condition>
+        <from display_value="Assign COMP and ELR Analysts">606b3e001ba17700938c4223cd4bcb51</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>4c8e3ec01ba17700938c4223cd4bcbb4</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>6c6b3e001ba17700938c4223cd4bcb5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Set CLOSED INCOMPLETE">088e3ec01ba17700938c4223cd4bcbb1</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Set STATE to Closed Complete">a46bf2001ba17700938c4223cd4bcb65</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">488e3ec01ba17700938c4223cd4bcbaa</condition>
-        <from display_value="Set STAGE">808e3ec01ba17700938c4223cd4bcbaa</from>
+        <condition display_value="Always">ec6bf2001ba17700938c4223cd4bcb67</condition>
+        <from display_value="Unit Approval not Received">646bf2001ba17700938c4223cd4bcb66</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>808e3ec01ba17700938c4223cd4bcbb3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Assign COMP and ELR Analysts">0c8e7ac01ba17700938c4223cd4bcbd3</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Set CLOSED INCOMPLETE">606b3e001ba17700938c4223cd4bcb5a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c08e3ec01ba17700938c4223cd4bcbb0</condition>
-        <from display_value="Set STATE to Closed Complete">0c8e3ec01ba17700938c4223cd4bcbaf</from>
+        <condition display_value="No">a86bf2001ba17700938c4223cd4bcb69</condition>
+        <from display_value="Unit Approval Check">e46bf2001ba17700938c4223cd4bcb68</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>848e3ec01ba17700938c4223cd4bcbb3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e46b3e001ba17700938c4223cd4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="End">048e3ec01ba17700938c4223cd4bcbaf</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Unit Approval not Received">646bf2001ba17700938c4223cd4bcb66</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">448e7ac01ba17700938c4223cd4bcbd3</condition>
-        <from display_value="Begin">408e7ac01ba17700938c4223cd4bcbd3</from>
+        <condition display_value="Always">a46b3e001ba17700938c4223cd4bcb5b</condition>
+        <from display_value="set Stage">ec6b3e001ba17700938c4223cd4bcb5a</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcbb3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e86b3e001ba17700938c4223cd4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Submitted Request APPROVED">c48e3ec01ba17700938c4223cd4bcbae</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="shr UNIT Approves Request">646b3e001ba17700938c4223cd4bcb56</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">008e3ec01ba17700938c4223cd4bcbae</condition>
-        <from display_value="Unit Approval Check">408e3ec01ba17700938c4223cd4bcbad</from>
+        <condition display_value="Always">6c6bf2001ba17700938c4223cd4bcb64</condition>
+        <from display_value="set Values">e86bf2001ba17700938c4223cd4bcb63</from>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>cc8e3ec01ba17700938c4223cd4bcbb3</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>ec6b3e001ba17700938c4223cd4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <to display_value="Set STAGE">808e3ec01ba17700938c4223cd4bcbaa</to>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <to display_value="Assign COMP and ELR Analysts">606b3e001ba17700938c4223cd4bcb51</to>
     </wf_transition>
     <wf_workflow_instance action="INSERT_OR_UPDATE">
-        <activity display_value="shr UNIT Approves Request">008e3ec01ba17700938c4223cd4bcbab</activity>
+        <activity display_value="shr UNIT Approves Request">646b3e001ba17700938c4223cd4bcb56</activity>
         <return_map/>
         <stage/>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>888e3ec01ba17700938c4223cd4bcbab</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>e06b3e001ba17700938c4223cd4bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
         <workflow display_value="shr UNIT Approves Request">ad9875381bc9b340aa940f22dd4bcb98</workflow>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_workflow_instance>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-05-16 18:13:48</sys_created_on>
-        <sys_id>048e7ac01ba17700938c4223cd4bcbcf</sys_id>
+        <sys_created_on>2019-05-16 18:00:11</sys_created_on>
+        <sys_id>a46bf2001ba17700938c4223cd4bcb61</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:13:48</sys_updated_on>
-        <workflow_version display_value="shrClassification">808e7ac01ba17700938c4223cd4bcbcf</workflow_version>
+        <sys_updated_on>2019-05-16 18:00:11</sys_updated_on>
+        <workflow_version display_value="shrEquity">a06bf2001ba17700938c4223cd4bcb61</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=32c7b5b41bc9b340aa940f22dd4bcb15^sys_id!=808e7ac01ba17700938c4223cd4bcbcf">
+    <wf_workflow_version action="update_multiple" query="workflow=f4b3347e1b0d3b40aa940f22dd4bcbfd^sys_id!=a06bf2001ba17700938c4223cd4bcb61">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="30" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Agent Comp" max_length="32" name="agent_comp" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" reference_qual_condition="group=e30c7c691bbb2b40aa940f22dd4bcb43^EQ" type="reference">
+    <element extends="task" label="SHR Request Data" max_length="40" name="x_uocs6_staff_hr_s_shr_request_data" sizeclass="69" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Agent Comp" max_length="32" name="agent_comp" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=6f68c12d1bfcf700aa940f22dd4bcb94^EQ" reference_qual_condition="group=6f68c12d1bfcf700aa940f22dd4bcb94^EQ" type="reference">
             <choice/>
         </element>
-        <element choice="1" label="Agent ER" max_length="32" name="agent_er" reference="sys_user_grmember" reference_key="User" reference_qual="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" reference_qual_condition="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" type="reference">
+        <element choice="1" label="Agent ER" max_length="32" name="agent_er" reference="sys_user_grmember" reference_qual="group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ" reference_qual_condition="group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ" type="reference">
             <choice/>
         </element>
-        <element choice="1" label="Agent LR" max_length="32" name="agent_lr" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" reference_qual_condition="group=026c30a91bbb2b40aa940f22dd4bcb2f^EQ" type="reference">
+        <element choice="1" label="Agent LR" max_length="32" name="agent_lr" reference="sys_user_grmember" reference_qual="group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ" reference_qual_condition="group=b7dac16d1bfcf700aa940f22dd4bcb62^EQ" type="reference">
             <choice/>
         </element>
-        <element choice="1" label="Agent OPS" max_length="32" name="agent_ops" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=78ac78691bbb2b40aa940f22dd4bcbe6^EQ" reference_qual_condition="group=78ac78691bbb2b40aa940f22dd4bcbe6^EQ" type="reference">
+        <element choice="1" label="Agent OPS" max_length="32" name="agent_ops" reference="sys_user_grmember" reference_cascade_rule="cascade" reference_key="User" reference_qual="group=5c54d5e51b303b00aa940f22dd4bcbde^EQ" reference_qual_condition="group=5c54d5e51b303b00aa940f22dd4bcbde^EQ" type="reference">
             <choice/>
         </element>
         <element label="BG Check Comments" max_length="4000" name="bg_check_comments" type="string"/>
@@ -21,7 +21,7 @@
             </choice>
         </element>
         <element label="Budget Approval" max_length="2" name="budget_approval" type="boolean"/>
-        <element label="Budget Approver" max_length="32" name="budget_approver" reference="sys_user" type="reference"/>
+        <element label="Budget Approver" max_length="32" name="budget_approver" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Compensation Analysis" max_length="4000" name="compensation_analysis" type="string"/>
         <element choice="1" label="Consult" mandatory="true" max_length="40" name="consult" type="choice">
             <choice>
@@ -242,7 +242,7 @@
         <element label="Proposed Salary $$" max_length="15" name="proposed_salary_calc" read_only="true" type="decimal"/>
         <element attributes="format=none" label="Proposed Title Code" max_length="4" name="proposed_title_code" read_only="true" type="integer"/>
         <element label="Proposed Unit" max_length="4" name="proposed_unit" read_only="true" type="string"/>
-        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
         <element choice="1" label="Request Type" max_length="40" name="request_type" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="EAR: Classification Review" sequence="10" value="classification"/>
@@ -271,7 +271,7 @@
                 <element inactive_on_update="false" label="Stipend Extension" sequence="120" value="ext"/>
             </choice>
         </element>
-        <element label="Supervisor" mandatory="true" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <element label="Supervisor" mandatory="true" max_length="32" name="supervisor" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Supervisor Approval" max_length="2" name="supervisor_approval" type="boolean"/>
         <element label="Union Comments" max_length="4000" name="union_comments" type="string"/>
         <element label="Union Notification Date" max_length="40" name="union_date" type="glide_date"/>
@@ -289,9 +289,10 @@
                 <element inactive_on_update="false" label="Union Denied" sequence="90" value="union_denied"/>
             </choice>
         </element>
-        <element label="Unit Head" max_length="32" name="unit_head" reference="sys_user" type="reference"/>
+        <element label="Unit Head" max_length="32" name="unit_head" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Unit Head Approval" max_length="2" name="unit_head_approval" type="boolean"/>
         <element label="Secure File 1" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
         <element label="Secure FIle 2" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
+        <element label="Stage" max_length="40" name="u_stage" read_only="true" type="workflow"/>
     </element>
 </database>

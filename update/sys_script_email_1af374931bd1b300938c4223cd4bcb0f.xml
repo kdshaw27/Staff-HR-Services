@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>shr_REJECT_button</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+    var instance = gs.getProperty("instance_name"); 
+	var link = "https://" + instance + ".service-now.com"; 
+	var mark = email.watermark; var number = current.sysapproval.number; 
+	var emailAddress = instance + "@service-now.com"; 
+	var style = " style=color:#ffffff;"; 
+	var mailto =  "<a href=mailto:" + emailAddress + "?subject=Re:%20" + number + "%20-%20" + "reject" + "&body=Include%20reason%20for%20rejection%20of%20this%20request.%0A%0A" + mark + style + "> Reject " + number + "</a>";  
+	
+	template.print( mailto + "\n");
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-05-14 00:13:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1af374931bd1b300938c4223cd4bcb0f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>shr_REJECT_button</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_script_email_1af374931bd1b300938c4223cd4bcb0f</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-05-14 01:56:35</sys_updated_on>
+    </sys_script_email>
+</record_update>
