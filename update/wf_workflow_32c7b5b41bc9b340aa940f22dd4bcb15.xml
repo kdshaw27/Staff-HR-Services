@@ -33,12 +33,12 @@
         <sys_created_by>kdshaw-admin</sys_created_by>
         <sys_created_on>2019-05-16 18:13:48</sys_created_on>
         <sys_id>808e7ac01ba17700938c4223cd4bcbcf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-16 18:41:32</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>alcoving</sys_updated_by>
+        <sys_updated_on>2019-05-16 18:59:22</sys_updated_on>
         <table>x_uocs6_staff_hr_s_shr_request_data</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="shrClassification">32c7b5b41bc9b340aa940f22dd4bcb15</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

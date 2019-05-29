@@ -3,137 +3,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>422043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>b76cdbc81be17700938c4223cd4bcb4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>request_type</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>c22043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>0c7cdbc81be17700938c4223cd4bcb4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee_last_name_sort</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>462043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>8c7cdbc81be17700938c4223cd4bcb4e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>c62043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>007cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_stage</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>4a2043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>807cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>ca2043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>047cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>requester</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>4e2043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>847cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>ce2043441ba17700938c4223cd4bcb6a</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>087cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>closed_at</element>
-            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0a2043441ba17700938c4223cd4bcb69</list_id>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
-            <sys_id>422043441ba17700938c4223cd4bcb6b</sys_id>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>887cdbc81be17700938c4223cd4bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>watch_list</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7b6cdbc81be17700938c4223cd4bcb4d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
+            <sys_id>0c7cdbc81be17700938c4223cd4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,10 +162,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-16 18:21:02</sys_created_on>
+            <sys_created_on>2019-05-16 20:24:35</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>0a2043441ba17700938c4223cd4bcb69</sys_id>
+            <sys_id>7b6cdbc81be17700938c4223cd4bcb4d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_uocs6_staff_hr_s_shr_request_data</sys_name>
             <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -159,7 +174,7 @@
             <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
             <sys_update_name>sys_ui_list_x_uocs6_staff_hr_s_shr_request_data_null</sys_update_name>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-16 18:21:02</sys_updated_on>
+            <sys_updated_on>2019-05-16 20:24:35</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

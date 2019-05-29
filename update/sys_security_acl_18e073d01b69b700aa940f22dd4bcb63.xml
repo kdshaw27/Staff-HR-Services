@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
-        <admin_overrides>false</admin_overrides>
+        <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Allow create for employee_eid in x_uocs6_staff_hr_s_shr_request_data, for users with roles (x_uocs6_staff_hr_s.shr_client, x_uocs6_staff_hr_s.shr_agent).</description>
-        <name>x_uocs6_staff_hr_s_shr_request_data.employee_eid</name>
-        <operation display_value="create">create</operation>
+        <description>access rule to let non-admin users run Ajax script include for getting Employee EID of Employee</description>
+        <name>shr_EID_include</name>
+        <operation display_value="execute">execute</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>kdshaw-admin</sys_created_by>
-        <sys_created_on>2019-04-29 19:28:27</sys_created_on>
+        <sys_created_on>2019-05-17 16:33:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>738c63ae1b093b40aa940f22dd4bcbe1</sys_id>
+        <sys_id>18e073d01b69b700aa940f22dd4bcb63</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_uocs6_staff_hr_s_shr_request_data.employee_eid</sys_name>
+        <sys_name>shr_EID_include</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
-        <sys_update_name>sys_security_acl_738c63ae1b093b40aa940f22dd4bcbe1</sys_update_name>
+        <sys_update_name>sys_security_acl_18e073d01b69b700aa940f22dd4bcb63</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-05-17 00:45:24</sys_updated_on>
-        <type display_value="record">record</type>
+        <sys_updated_on>2019-05-17 16:37:03</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
     </sys_security_acl>
 </record_update>
