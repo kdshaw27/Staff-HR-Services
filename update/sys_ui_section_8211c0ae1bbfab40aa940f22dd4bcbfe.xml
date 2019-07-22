@@ -394,6 +394,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stipend_original_date</element>
+            <position>25</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-22 21:49:26</sys_created_on>
+            <sys_id>7b5278b9db367700ef8cf4b5ae96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SHR EAR: CLASSIFICATION REVIEW" display_value="SHR EAR: CLASSIFICATION REVIEW" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="Default view">8211c0ae1bbfab40aa940f22dd4bcbfe</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-22 21:49:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>SHR EAR: CLASSIFICATION REVIEW</caption>
             <header>false</header>
