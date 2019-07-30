@@ -110,6 +110,7 @@
                 <element inactive_on_update="false" label="Temporary" sequence="110" value="temporary"/>
             </choice>
         </element>
+        <element label="Employee Unit" max_length="40" name="employee_unit" type="string"/>
         <element label="Equity Amount $$" max_length="15" name="equity_amount" type="decimal"/>
         <element label="Equity Grade" max_length="2" name="equity_grade" type="integer"/>
         <element label="Equity Percent Change" max_length="15" name="equity_percent_change" read_only="true" type="decimal"/>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_uocs6_staff_hr_s_shr_request_data" version="2" view="shr_closed_requests">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>3ca9adc4db4b3f00ef8cf4b5ae961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_type</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>bca9adc4db4b3f00ef8cf4b5ae961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>employee_last_name_sort</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>30a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>employee_unit</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>b0a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>34a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>b4a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>closed_at</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>38a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requester</element>
+            <list_id display_value="x_uocs6_staff_hr_s_shr_request_data" element="NULL" name="x_uocs6_staff_hr_s_shr_request_data" parent="NULL" relationship="NULL" sys_domain="global" view="3d0965c4db4b3f00ef8cf4b5ae961942">f0a9adc4db4b3f00ef8cf4b5ae961968</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_id>b8a9adc4db4b3f00ef8cf4b5ae961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_uocs6_staff_hr_s_shr_request_data</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-30 01:37:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f0a9adc4db4b3f00ef8cf4b5ae961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_uocs6_staff_hr_s_shr_request_data</sys_name>
+            <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+            <sys_update_name>sys_ui_list_x_uocs6_staff_hr_s_shr_request_data_shr_closed_requests</sys_update_name>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-30 01:37:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="SHR Closed Requests" name="shr_closed_requests">3d0965c4db4b3f00ef8cf4b5ae961942</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

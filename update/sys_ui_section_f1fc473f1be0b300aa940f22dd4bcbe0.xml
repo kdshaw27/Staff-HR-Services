@@ -3,160 +3,160 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c85fc6a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>24e908ccdb073f00ef8cf4b5ae9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text>SHR EAR: SALARY STIPEND REQUEST</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>cc5fc6a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>28e908ccdb073f00ef8cf4b5ae9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c05fc6a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>2ce908ccdb073f00ef8cf4b5ae9619ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c45fc6a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>20e908ccdb073f00ef8cf4b5ae9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c85fc6a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>24e908ccdb073f00ef8cf4b5ae9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>cc5fc6a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>28e908ccdb073f00ef8cf4b5ae9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c05fc6a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>2ce908ccdb073f00ef8cf4b5ae9619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c45fc6a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>20e908ccdb073f00ef8cf4b5ae9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c85fc6a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>24e908ccdb073f00ef8cf4b5ae9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>cc5fc6a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>28e908ccdb073f00ef8cf4b5ae9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c05fc6a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>2ce908ccdb073f00ef8cf4b5ae9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text>&lt;b&gt;Click&lt;/b&gt; on each tab starting on left and enter appropriate information for Employee Action Request   _  ( * - asterisks showing in the Section Tab heading means mandatory fields not filled in on that tab)</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>c45fc6a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>20e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c85fc6a11b19ff40938c4223cd4bcb6f</element>
+            <element>24e908ccdb073f00ef8cf4b5ae9619ed</element>
             <position>0</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>885fc6a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e0e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cc5fc6a11b19ff40938c4223cd4bcb6f</element>
+            <element>28e908ccdb073f00ef8cf4b5ae9619ed</element>
             <position>1</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>0c5fc6a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>64e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -164,13 +164,13 @@
             <element>employee_last_name_sort</element>
             <position>2</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>8c5fc6a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e4e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -178,13 +178,13 @@
             <element>.begin_split</element>
             <position>3</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>005fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>68e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -192,13 +192,13 @@
             <element>number</element>
             <position>4</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>805fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e8e908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -206,13 +206,13 @@
             <element>request_type</element>
             <position>5</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>045fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>6ce908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -220,13 +220,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>845fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>ece908ccdb073f00ef8cf4b5ae9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -234,13 +234,13 @@
             <element>requester</element>
             <position>7</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>085fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>60e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -248,13 +248,13 @@
             <element>department</element>
             <position>8</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>885fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e0e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -262,55 +262,55 @@
             <element>.end_split</element>
             <position>9</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>0c5fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>64e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c05fc6a11b19ff40938c4223cd4bcb70</element>
+            <element>2ce908ccdb073f00ef8cf4b5ae9619ed</element>
             <position>10</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>8c5fc6a11b19ff40938c4223cd4bcb73</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e4e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c45fc6a11b19ff40938c4223cd4bcb70</element>
+            <element>20e908ccdb073f00ef8cf4b5ae9619ee</element>
             <position>11</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>005fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>68e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c85fc6a11b19ff40938c4223cd4bcb70</element>
+            <element>24e908ccdb073f00ef8cf4b5ae9619ee</element>
             <position>12</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>805fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e8e908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -318,13 +318,13 @@
             <element>.begin_split</element>
             <position>13</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>045fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>6ce908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -332,41 +332,41 @@
             <element>u_stage</element>
             <position>14</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>845fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>ece908ccdb073f00ef8cf4b5ae9619f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cc5fc6a11b19ff40938c4223cd4bcb70</element>
+            <element>28e908ccdb073f00ef8cf4b5ae9619ee</element>
             <position>15</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>085fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>60e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c05fc6a11b19ff40938c4223cd4bcb71</element>
+            <element>2ce908ccdb073f00ef8cf4b5ae9619ee</element>
             <position>16</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>885fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e0e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -374,13 +374,13 @@
             <element>state</element>
             <position>17</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>0c5fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>64e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -388,13 +388,13 @@
             <element>opened_at</element>
             <position>18</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>8c5fc6a11b19ff40938c4223cd4bcb74</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e4e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -402,13 +402,13 @@
             <element>closed_at</element>
             <position>19</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>005fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>68e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -416,13 +416,13 @@
             <element>.split</element>
             <position>20</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>805fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e8e908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -430,41 +430,41 @@
             <element>assignment_group</element>
             <position>21</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>045fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>6ce908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c45fc6a11b19ff40938c4223cd4bcb71</element>
+            <element>20e908ccdb073f00ef8cf4b5ae9619ef</element>
             <position>22</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>845fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>ece908ccdb073f00ef8cf4b5ae9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c85fc6a11b19ff40938c4223cd4bcb71</element>
+            <element>24e908ccdb073f00ef8cf4b5ae9619ef</element>
             <position>23</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>085fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>60e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -472,13 +472,13 @@
             <element>agent_comp</element>
             <position>24</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>885fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e0e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -486,13 +486,13 @@
             <element>agent_er</element>
             <position>25</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>0c5fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>64e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -500,13 +500,13 @@
             <element>agent_lr</element>
             <position>26</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>8c5fc6a11b19ff40938c4223cd4bcb75</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e4e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -514,13 +514,13 @@
             <element>watch_list</element>
             <position>27</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>005fc6a11b19ff40938c4223cd4bcb76</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>68e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -528,55 +528,55 @@
             <element>.end_split</element>
             <position>28</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>805fc6a11b19ff40938c4223cd4bcb76</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>e8e908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cc5fc6a11b19ff40938c4223cd4bcb71</element>
+            <element>28e908ccdb073f00ef8cf4b5ae9619ef</element>
             <position>29</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>045fc6a11b19ff40938c4223cd4bcb76</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>6ce908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c05fc6a11b19ff40938c4223cd4bcb72</element>
+            <element>2ce908ccdb073f00ef8cf4b5ae9619ef</element>
             <position>30</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>845fc6a11b19ff40938c4223cd4bcb76</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>ece908ccdb073f00ef8cf4b5ae9619f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c45fc6a11b19ff40938c4223cd4bcb72</element>
+            <element>20e908ccdb073f00ef8cf4b5ae9619f0</element>
             <position>31</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:49</sys_created_on>
-            <sys_id>085fc6a11b19ff40938c4223cd4bcb76</sys_id>
+            <sys_created_on>2019-07-29 18:38:52</sys_created_on>
+            <sys_id>60e908ccdb073f00ef8cf4b5ae9619f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: SALARY STIPEND REQUEST" display_value="SHR EAR: SALARY STIPEND REQUEST" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="35fc473f1be0b300aa940f22dd4bcbdc">f1fc473f1be0b300aa940f22dd4bcbe0</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:49</sys_updated_on>
+            <sys_updated_on>2019-07-29 18:38:52</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

@@ -21,7 +21,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_uocs6_staff_hr_s.shr_client,x_uocs6_staff_hr_s.shr_agent</roles>
+        <roles>x_uocs6_staff_hr_s.shr_agent</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -30,7 +30,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5e51863b1b9077c0aa940f22dd4bcb82</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>CLOSED SHR Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -39,11 +39,11 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_app_module_5e51863b1b9077c0aa940f22dd4bcb82</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-16 17:05:21</sys_updated_on>
+        <sys_updated_on>2019-07-30 01:45:40</sys_updated_on>
         <timeline_page/>
         <title>CLOSED SHR Requests</title>
         <uncancelable>false</uncancelable>
-        <view_name>Test_view</view_name>
+        <view_name>shr_closed_requests</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>
