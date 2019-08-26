@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_group">
+    <pa_dashboards_group action="INSERT_OR_UPDATE">
+        <groups/>
+        <name>SHR Clients</name>
+        <order>10</order>
+        <role_override>true</role_override>
+        <roles>x_uocs6_staff_hr_s..admin,x_uocs6_staff_hr_s.developer,x_uocs6_staff_hr_s.shr_agent,x_uocs6_staff_hr_s.shr_app_admin,x_uocs6_staff_hr_s.shr_client,x_uocs6_staff_hr_s.shr_helpDesk</roles>
+        <sys_class_name>pa_dashboards_group</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-08-09 20:51:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4eb1912bdb0ff300ef8cf4b5ae9619b8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SHR Clients</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>pa_dashboards_group_4eb1912bdb0ff300ef8cf4b5ae9619b8</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-08-09 21:27:57</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards_group>
+</record_update>

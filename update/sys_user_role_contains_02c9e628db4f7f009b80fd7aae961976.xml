@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</contains>
+        <role display_value="x_uocs6_staff_hr_s.shr_helpDesk" name="x_uocs6_staff_hr_s.shr_helpDesk">2c5d48981bf4f300aa940f22dd4bcb3e</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-07-31 19:34:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>02c9e628db4f7f009b80fd7aae961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil.x_uocs6_staff_hr_s.shr_helpDesk</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_user_role_contains_02c9e628db4f7f009b80fd7aae961976</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-07-31 19:34:25</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

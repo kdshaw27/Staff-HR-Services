@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">05a0623adbcff3009b80fd7aae96192b</grid_canvas>
+        <height>16</height>
+        <portal_widget display_value="Created 08-07-2019 11:40 AM">cda0623adbcff3009b80fd7aae961944</portal_widget>
+        <posx>6</posx>
+        <posy>25</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-08-07 18:40:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cda0623adbcff3009b80fd7aae961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_cda0623adbcff3009b80fd7aae961949</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-08-07 18:40:48</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

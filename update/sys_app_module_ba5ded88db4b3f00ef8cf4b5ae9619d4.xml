@@ -18,8 +18,8 @@
         <mobile_title>SNCTest module</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_uocs6_staff_hr_s_shr_request_data</name>
-        <order>25</order>
-        <override_menu_roles>false</override_menu_roles>
+        <order>40</order>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
         <roles>x_uocs6_staff_hr_s.shr_client</roles>
@@ -31,7 +31,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ba5ded88db4b3f00ef8cf4b5ae9619d4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>My CLOSED SHR Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>sys_app_module_ba5ded88db4b3f00ef8cf4b5ae9619d4</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-07-30 01:59:01</sys_updated_on>
+        <sys_updated_on>2019-08-02 00:19:04</sys_updated_on>
         <timeline_page/>
         <title>My CLOSED SHR Requests</title>
         <uncancelable>false</uncancelable>

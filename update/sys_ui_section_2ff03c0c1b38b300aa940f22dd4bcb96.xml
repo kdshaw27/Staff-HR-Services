@@ -3,580 +3,647 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>123f86a11b19ff40938c4223cd4bcb6c</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e6f01220db0f7f009b80fd7aae9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text>SHR EAR: JOB DESCRIPTION UPDATE</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>163f86a11b19ff40938c4223cd4bcb6c</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eaf01220db0f7f009b80fd7aae9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eef01220db0f7f009b80fd7aae9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
+            <text/>
+            <type display_value="Text on White">eaad27451b143b80938c4223cd4bcb91</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1a3f86a11b19ff40938c4223cd4bcb6c</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e2f01220db0f7f009b80fd7aae9619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1e3f86a11b19ff40938c4223cd4bcb6c</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e6f01220db0f7f009b80fd7aae9619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>123f86a11b19ff40938c4223cd4bcb6d</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eaf01220db0f7f009b80fd7aae9619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>163f86a11b19ff40938c4223cd4bcb6d</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eef01220db0f7f009b80fd7aae9619d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1a3f86a11b19ff40938c4223cd4bcb6d</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e2f01220db0f7f009b80fd7aae9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1e3f86a11b19ff40938c4223cd4bcb6d</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e6f01220db0f7f009b80fd7aae9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>123f86a11b19ff40938c4223cd4bcb6e</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eaf01220db0f7f009b80fd7aae9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>163f86a11b19ff40938c4223cd4bcb6e</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>eef01220db0f7f009b80fd7aae9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>true</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1a3f86a11b19ff40938c4223cd4bcb6e</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e2f01220db0f7f009b80fd7aae9619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text>&lt;b&gt;Click&lt;/b&gt; on each tab starting on left and enter appropriate information for Employee Action Request   _  ( * - asterisks showing in the Section Tab heading means mandatory fields not filled in on that tab)</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>1e3f86a11b19ff40938c4223cd4bcb6e</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>e6f01220db0f7f009b80fd7aae9619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>123f86a11b19ff40938c4223cd4bcb6c</element>
+            <element>e6f01220db0f7f009b80fd7aae9619d7</element>
             <position>0</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>de3f86a11b19ff40938c4223cd4bcb6e</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aaf01220db0f7f009b80fd7aae9619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>163f86a11b19ff40938c4223cd4bcb6c</element>
+            <element>eaf01220db0f7f009b80fd7aae9619d7</element>
             <position>1</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>523f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2ef01220db0f7f009b80fd7aae9619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aef01220db0f7f009b80fd7aae9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_last_name_sort</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d23f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>22f01220db0f7f009b80fd7aae9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>3</position>
+            <element>.split</element>
+            <position>4</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>563f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a2f01220db0f7f009b80fd7aae9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eef01220db0f7f009b80fd7aae9619d7</element>
+            <position>5</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>26f01220db0f7f009b80fd7aae9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a6f01220db0f7f009b80fd7aae9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>kdshaw-admin</sys_created_by>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2af01220db0f7f009b80fd7aae9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
+            <sys_updated_by>kdshaw-admin</sys_updated_by>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>4</position>
+            <position>8</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d63f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aaf01220db0f7f009b80fd7aae9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>request_type</element>
-            <position>5</position>
+            <position>9</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5a3f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2ef01220db0f7f009b80fd7aae9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>10</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>da3f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aef01220db0f7f009b80fd7aae9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requester</element>
-            <position>7</position>
+            <position>11</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5e3f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>22f01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>department</element>
-            <position>8</position>
+            <position>12</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>de3f86a11b19ff40938c4223cd4bcb6f</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a2f01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
+            <position>13</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>523f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>26f01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1a3f86a11b19ff40938c4223cd4bcb6c</element>
-            <position>10</position>
+            <element>e2f01220db0f7f009b80fd7aae9619d8</element>
+            <position>14</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d23f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a6f01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1e3f86a11b19ff40938c4223cd4bcb6c</element>
-            <position>11</position>
+            <element>e6f01220db0f7f009b80fd7aae9619d8</element>
+            <position>15</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>563f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2af01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>123f86a11b19ff40938c4223cd4bcb6d</element>
-            <position>12</position>
+            <element>eaf01220db0f7f009b80fd7aae9619d8</element>
+            <position>16</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d63f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aaf01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>13</position>
+            <position>17</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5a3f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2ef01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_stage</element>
-            <position>14</position>
+            <position>18</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>da3f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aef01220db0f7f009b80fd7aae9619dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>163f86a11b19ff40938c4223cd4bcb6d</element>
-            <position>15</position>
+            <element>eef01220db0f7f009b80fd7aae9619d8</element>
+            <position>19</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5e3f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>22f01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1a3f86a11b19ff40938c4223cd4bcb6d</element>
-            <position>16</position>
+            <element>e2f01220db0f7f009b80fd7aae9619d9</element>
+            <position>20</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>de3f86a11b19ff40938c4223cd4bcb70</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a2f01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>17</position>
+            <position>21</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>523f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>26f01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_at</element>
-            <position>18</position>
+            <position>22</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d23f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a6f01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>closed_at</element>
-            <position>19</position>
+            <position>23</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>563f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2af01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>20</position>
+            <position>24</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d63f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aaf01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>21</position>
+            <position>25</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5a3f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2ef01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1e3f86a11b19ff40938c4223cd4bcb6d</element>
-            <position>22</position>
+            <element>e6f01220db0f7f009b80fd7aae9619d9</element>
+            <position>26</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>da3f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aef01220db0f7f009b80fd7aae9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>123f86a11b19ff40938c4223cd4bcb6e</element>
-            <position>23</position>
+            <element>eaf01220db0f7f009b80fd7aae9619d9</element>
+            <position>27</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5e3f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>22f01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>agent_comp</element>
-            <position>24</position>
+            <position>28</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>de3f86a11b19ff40938c4223cd4bcb71</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a2f01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>agent_er</element>
-            <position>25</position>
+            <position>29</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>523f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>26f01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>agent_lr</element>
-            <position>26</position>
+            <position>30</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d23f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>a6f01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>watch_list</element>
-            <position>27</position>
+            <position>31</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>563f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2af01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>28</position>
+            <position>32</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>d63f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aaf01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>163f86a11b19ff40938c4223cd4bcb6e</element>
-            <position>29</position>
+            <element>eef01220db0f7f009b80fd7aae9619d9</element>
+            <position>33</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5a3f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>2ef01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1a3f86a11b19ff40938c4223cd4bcb6e</element>
-            <position>30</position>
+            <element>e2f01220db0f7f009b80fd7aae9619da</element>
+            <position>34</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>da3f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>aef01220db0f7f009b80fd7aae9619de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1e3f86a11b19ff40938c4223cd4bcb6e</element>
-            <position>31</position>
+            <element>e6f01220db0f7f009b80fd7aae9619da</element>
+            <position>35</position>
             <sys_created_by>kdshaw-admin</sys_created_by>
-            <sys_created_on>2019-05-08 20:22:25</sys_created_on>
-            <sys_id>5e3f86a11b19ff40938c4223cd4bcb72</sys_id>
+            <sys_created_on>2019-07-31 17:46:03</sys_created_on>
+            <sys_id>22f01220db0f7f009b80fd7aae9619df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="SHR EAR: JOB DESCRIPTION UPDATE" display_value="SHR EAR: JOB DESCRIPTION UPDATE" name="x_uocs6_staff_hr_s_shr_request_data" sys_domain="global" view="2bf0780c1b38b300aa940f22dd4bcbda">2ff03c0c1b38b300aa940f22dd4bcb96</sys_ui_section>
             <sys_updated_by>kdshaw-admin</sys_updated_by>
-            <sys_updated_on>2019-05-08 20:22:25</sys_updated_on>
+            <sys_updated_on>2019-07-31 17:46:03</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>

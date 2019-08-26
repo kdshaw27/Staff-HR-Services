@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" label="Approval" max_length="40" name="sysapproval_approver" sizeclass="5003" type="collection">
+        <element label="SHR Request Data" max_length="32" name="x_uocs6_staff_hr_s_shr_request_data" reference="x_uocs6_staff_hr_s_shr_request_data" type="reference"/>
+    </element>
+</database>

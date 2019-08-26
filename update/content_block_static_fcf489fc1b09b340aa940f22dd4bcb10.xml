@@ -13,13 +13,15 @@
 <div style="box-sizing: border-box; color: #343d47; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-size: 16.9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; background-color: #eeeeee; margin-top: 40px; padding-top: 20px;">
 <p style="box-sizing: border-box; margin: 0px 40px; font-size: 20.28px;"><strong style="box-sizing: border-box; font-weight: bold;">Please consult</strong>&nbsp;with your ELR Analyst or Compensation Analyst&nbsp;<strong style="box-sizing: border-box; font-weight: bold;">prior</strong>&nbsp;to submission of this form to ensure all necessary processes and procedures have been followed.</p>
 <ul style="box-sizing: border-box; margin: 20px 40px; list-style-position: inside; list-style-type: disc;">
+<ul style="box-sizing: border-box; margin: 20px 40px; list-style-position: inside; list-style-type: disc;">
 <li style="box-sizing: border-box; margin: 0px 0px 9px; font-size: 20.28px;">To find your correct contact at SHR, visit this web page:&nbsp;<a style="box-sizing: border-box; text-decoration: none; padding: 0px; cursor: pointer; color: #278efc; background: transparent none repeat scroll 0% 0%;" href="https://shr.ucsc.edu/contact/locate_team.html" target="_blank">Locate Your Team<br /></a></li>
 <li style="box-sizing: border-box; margin: 0px 0px 9px; font-size: 20.28px;">Visit the main ELR web page:&nbsp;<a style="box-sizing: border-box; text-decoration: none; padding: 0px; cursor: pointer; color: #278efc; background: transparent none repeat scroll 0% 0%;" href="https://shr.ucsc.edu/elr/" target="_blank">Employee and Labor Relations<br /></a></li>
-<li style="box-sizing: border-box; margin: 0px 0px 9px; font-size: 20.28px;">This is a PLACEHOLDER for link to new COMP Web Pages undergoing redesign<br /><br /><br /></li>
+<li style="box-sizing: border-box; margin: 0px 0px 9px; font-size: 20.28px;">Visit the <a style="box-sizing: border-box; text-decoration: none; padding: 0px; cursor: pointer; color: #278efc; background: transparent none repeat scroll 0% 0%;" href="https://shr.ucsc.edu/compensation/index.html" target="_blank">SHR Compensation web site</a> for additional compensation information or details about the EAR processes.</li>
+</ul>
 </ul>
 </div>
 <p>&nbsp;</p>
-<p><a href="uri=/home.do%3Fsysparm_view%3Dshr_homepage" target="_self"><button style="font-size: 120%; font-weight;bold; background-color: #00458c; border-radius: 8px; color: #ffffff; margin-left: 20px; padding: 15px 32px;" type="button">Return to SHR homepage</button></a></p>
+<p><a href="uri=/$pa_dashboard.do?sysparm_dashboard=38a0a6f6dbcff3009b80fd7aae961994" target="_self"><button style="font-size: 120%; font-weight;bold; background-color: #00458c; border-radius: 8px; color: #ffffff; margin-left: 20px; padding: 15px 32px;" type="button">Return to SHR homepage</button></a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>]]></static_content>
@@ -28,7 +30,7 @@
         <sys_created_on>2019-04-23 20:47:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fcf489fc1b09b340aa940f22dd4bcb10</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Consult Resources</sys_name>
         <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
         <sys_policy/>
@@ -36,7 +38,7 @@
         <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
         <sys_update_name>content_block_static_fcf489fc1b09b340aa940f22dd4bcb10</sys_update_name>
         <sys_updated_by>kdshaw-admin</sys_updated_by>
-        <sys_updated_on>2019-04-27 00:05:48</sys_updated_on>
+        <sys_updated_on>2019-08-07 18:50:26</sys_updated_on>
     </content_block_static>
     <sys_translated_text action="delete_multiple" query="documentkey=fcf489fc1b09b340aa940f22dd4bcb10"/>
 </record_update>

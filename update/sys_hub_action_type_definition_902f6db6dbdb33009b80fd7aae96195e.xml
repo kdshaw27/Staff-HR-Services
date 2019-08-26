@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_supervisor</internal_name>
+        <label_cache>[{"name":"{{action.supervisor}}","label":"action➛Supervisor","type":"action","ref":""},{"name":"{{step[f9b81dda-bdde-4a28-84bb-41a07ffaa60a].supervisor_name}}","label":"step➛Look up Supervisor➛supervisor_name","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>97d4f53edbdb33009b80fd7aae9619de</latest_snapshot>
+        <master_snapshot>3f81797adbdb33009b80fd7aae961938</master_snapshot>
+        <name>Get Supervisor</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-08-20 01:20:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>902f6db6dbdb33009b80fd7aae96195e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Get Supervisor</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_902f6db6dbdb33009b80fd7aae96195e</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-08-20 01:50:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=902f6db6dbdb33009b80fd7aae96195e"/>
+    <sys_element_mapping action="delete_multiple" query="id=902f6db6dbdb33009b80fd7aae96195e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>supervisor_name</field>
+        <id>902f6db6dbdb33009b80fd7aae96195e</id>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-08-20 01:43:38</sys_created_on>
+        <sys_id>3f74b13edbdb33009b80fd7aae9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-08-20 01:43:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_902f6db6dbdb33009b80fd7aae96195e</table>
+        <value>{{step[f9b81dda-bdde-4a28-84bb-41a07ffaa60a].supervisor_name}}</value>
+    </sys_element_mapping>
+</record_update>

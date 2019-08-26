@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>50</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>kdshaw-admin</sys_created_by>
+        <sys_created_on>2019-08-14 18:09:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cb8c924ddb93bb009b80fd7aae96198d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="Staff HR Services" source="x_uocs6_staff_hr_s">6dfc44900f6ae7000331847022050e08</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Staff HR Services">6dfc44900f6ae7000331847022050e08</sys_scope>
+        <sys_update_name>sys_db_view_table_cb8c924ddb93bb009b80fd7aae96198d</sys_update_name>
+        <sys_updated_by>kdshaw-admin</sys_updated_by>
+        <sys_updated_on>2019-08-14 19:56:33</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <variable_prefix>aprv</variable_prefix>
+        <view display_value="x_uocs6_staff_hr_s_u_shr_approvals">fcdb5a0ddb93bb009b80fd7aae961987</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>
